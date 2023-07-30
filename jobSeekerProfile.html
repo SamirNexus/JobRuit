@@ -1,0 +1,496 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg py-0 bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder=" ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="homeAfterLog py-5 profile">
+        <div class="container-fluid pt-5">
+            <div class="row px-3 px-lg-5 pt-3">
+                <div class="col-lg-2 px-0 mb-4">
+                    <div class="person text-center bg-white py-4 px-3 mb-3">
+                        <div class="userImage position-relative m-auto">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Yassin Khaled</h5>
+                        <span class="specialParagraph">UI/UX Designer</span>
+                        <p class="mb-0">اخر ظهور اليوم 5:04 مساءا</p>
+                        <p class="jobseekerdesc pt-2">فتح الملف يجعلك قادر علي الوصول إلى الملف الشخصي الكامل وتفاصيل الاتصال</p>
+                        <p class="jobseekerdesc1 jobseekerProfiledesc1 py-2 mt-2 fw-bold">
+                            <a href="jobSeekerProfileAfterUnlock.html">
+                                <i class="fa-solid fa-lock ms-1"></i>  فتح الملف 
+                            </a>
+                        </p>
+                        <div class="selectdiv selectdivHome my-2">
+                            <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                <option>الحالة</option>
+                                <option value=""> مؤهل</option>
+                                <option value=""> قائمة الانتظار</option>
+                                <option value=""> قائمة مرشحين</option>
+                                <option value=""> غير مؤهل</option>
+                            </select> 
+                        </div> 
+                    </div>
+                    <div class="person bg-white py-4 px-3">
+                        <h5 class="fw-bold">الاهتمامات</h5>
+                        <div class="userSkills">
+                                <span>Software Engneering</span>
+                                <span>Design</span>
+                                <span>Figma</span>
+                                <span>IT</span>
+                                <span>Social Media</span>
+                        </div>
+                        <div class="clear-fix"></div>
+                        <h5 class="fw-bold my-2">الشارات</h5>
+                        <div class="userSkills">
+                                <span>Adobe XD</span>
+                                <span>UI Design</span>
+                                <span>Figma</span>
+                                <span>User research</span>
+                                <span>UI</span>
+                                <span>Product Design</span>
+                        </div>
+                        <div class="clear-fix"></div>
+                        <button disabled class="complete btn border-0 form-control homeComplete jobseekerComplete jobseekerCompleteDisabled mt-3 text-center">
+                            <a><i class="fa-solid fa-paper-plane"></i>  تحديد مقابلة</a>
+                        </button>
+                    </div>
+                    <div class="privacy text-center">
+                        <a href="" class="ms-2">الشروط والاحكام</a>
+                        <a href="">سياسة الخصوصية</a>
+                        <br>
+                        <a href="">تواصل معنا</a>
+                    </div>
+                    <div class="copyRight text-center">
+                        <span>Copyright @ Jopruit 2023</span>
+                        <img src="images/logoooooo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="personInfo my-0 mx-lg-3 py-4 px-4 bg-white">
+                        <!-- <form action="" class="profileForm">
+                            <fieldset class="border border-1 p-4 position-relative">
+                                <legend class="position-absolute px-2">التواصل</legend>
+                                <div class="row pt-3">
+                                    <div class="col-lg-6 py-2 selectEdit2">
+                                        <label for="address" class="py-2 fw-bold">رقم الهاتف</label>
+                                        <input id="address" name="userAddress" class="border-0 py-2 me-2" type="text" placeholder="" value="011-234-567">
+                                    </div> 
+                                    <div class="col-lg-6 py-2">
+                                        <label for="address" class="py-2 fw-bold">الايميل</label>
+                                        <input id="address" name="userAddress" class="border-0 py-2 me-2" type="text" placeholder="" value="Yassin@gmail.com">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <div class="d-flex">
+                                            <label for="social" class="py-2 fw-bold">مواقع التواصل</label>
+                                            <div class="jobseekerSocial d-flex align-items-center me-2" dir="ltr">
+                                                <div class="social1 text-white me-2 d-flex align-items-center justify-content-center">
+                                                    <i class="fa-brands fa-whatsapp"></i>
+                                                </div>
+                                                <div class="social1 text-white me-2 d-flex align-items-center justify-content-center">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </div>
+                                                <div class="social1 text-white me-2 d-flex align-items-center justify-content-center">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </div>
+                                                <div class="social1 text-white me-2 d-flex align-items-center justify-content-center">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            </form> -->
+                        <form action="techicalInfo.html" class="profileForm pt-4">
+                            <fieldset class="border border-1 p-4 position-relative">
+                                <legend class="position-absolute px-2">المعلومات الشخصية</legend>
+                                <div class="row pt-3">
+                                    <div class="col-lg-6 py-2">
+                                        <label for="address" class="py-2 fw-bold">العنوان</label>
+                                        <input id="address" name="userAddress" class="border-0 py-2 me-2" type="text" placeholder="" value="طنطا,الغربية,مصر">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="birthDate" class="py-2 fw-bold">تاريخ الميلاد</label>
+                                        <input id="birthDate" name="userBirthDate" class="border-0 py-2 me-2" type="text" placeholder="" value="1-2-1999">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="gender" class="py-2 fw-bold">النوع</label>
+                                        <input id="gender" name="userGender" class="border-0 py-2 me-2" type="text" placeholder="" value="ذكر">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="gender" class="py-2 fw-bold">حالة التجنيد</label>
+                                        <input id="gender" name="userGender" class="border-0 py-2 me-2" type="text" placeholder="" value="تم الخدمه">
+                                    </div>
+                                    <div class="col-lg-6 py-2 specialGender">
+                                        <label for="gender" class="py-2 fw-bold">المؤهل الدراسى</label>
+                                        <input id="gender" name="userGender" class="border-0 py-2 me-2" type="text" placeholder="" value="بكالوريوس حاسبات ومعلومات">
+                                    </div>
+                                    <div class="col-lg-6 py-2 specialGender">
+                                        <label for="faculity" class="py-2 fw-bold">الكلية\المعهد</label>
+                                        <input id="faculity" name="userFaculity" class="border-0 py-2 me-2" type="text" placeholder="" value="حاسبات ومعلومات">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="depart" class="py-2 fw-bold">القسم</label>
+                                        <input id="depart" name="userDepart" class="border-0 py-2 me-2" type="text" placeholder="" value="نظم المعلومات">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="experience" class="py-2 fw-bold">عدد سنين الخبرة</label>
+                                        <input id="experience" name="userExperience" class="border-0 py-2 me-2" type="text" placeholder="" value="2">
+                                    </div>
+                                    <div class="col-lg-6 py-2">
+                                        <label for="salary" class="py-2 fw-bold">الحد الادنى للراتب</label>
+                                        <input id="salary" name="userSalary" class="border-0 py-2 me-2" type="text" placeholder="" value="5000">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <form action="techicalInfo.html" class="pt-4 profileForm">
+                            <fieldset class="border border-1 py-3 position-relative">
+                                <legend class="position-absolute px-2">خبرات العمل</legend>
+                                <div class="jobCard bg-white py-4 px-4 jobCardBorder">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 imageCard">
+                                                <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="">مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات اتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة و مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر تصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                                </div>
+                                <div class="jobCard bg-white pt-4 px-4">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 ps-0 imageCard">
+                                                <img src="images/photo_2022-12-13_22-49-41.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="">مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات اتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة و مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر تصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <form action="techicalInfo.html" class="pt-4 profileForm">
+                            <fieldset class="border border-1 py-3 position-relative">
+                                <legend class="position-absolute px-2">الكورسات</legend>
+                                <div class="jobCard bg-white py-4 px-4 jobCardBorder">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 ps-0 imageCard">
+                                                <img src="images/photo_2022-12-13_22-49-41.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jobCard bg-white pt-4 px-4">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 ps-0 imageCard">
+                                                <img src="images/photo_2022-12-13_22-49-42.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <form action="techicalInfo.html" class="pt-4 profileForm">
+                            <fieldset class="border border-1 py-3 position-relative">
+                                <legend class="position-absolute px-2">الشهادات</legend>
+                                <div class="jobCard bg-white py-4 px-4 jobCardBorder">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 ps-0 imageCard">
+                                                <img src="images/photo_2022-12-13_22-49-41.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jobCard bg-white pt-4 px-4">
+                                    <div class="jobInfo ">
+                                        <div class="row">
+                                            <div class="col-md-1 mb-3 ps-0 imageCard">
+                                                <img src="images/photo_2022-12-13_22-49-42.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-11 mb-3 pe-4">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="jobTitle">
+                                                            <h5>Senior UI/UX Designer</h5>
+                                                            <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 pt-3 pt-md-0">
+                                                        <span class="skillDate">من فبرير 2022 - الآن</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                        <!-- <form action="techicalInfo.html" class="pt-4 profil profileForm">
+                            <fieldset class="border border-1 py-3 position-relative">
+                                <legend class="position-absolute px-2">نماذج العمل</legend>
+                                <div class="jobCard bg-white py-4 px-4">
+                                    <div class="jobInfo jobInfo2 jobinfo3 ">
+                                        <img class="ms-3 mb-2" src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                        <img class="ms-3 mb-2" src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                        <img class="ms-3 mb-2" src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                        <img class="ms-3 mb-2" src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                        <img class="ms-3 mb-2" src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                    </div>
+                                    <div class="clear-fix"></div>
+                                </div>
+                            </fieldset>
+                        </form> -->
+                        <!-- <form action="techicalInfo.html" class="pt-4">
+                            <fieldset class="border border-1 py-3 position-relative">
+                                <legend class="position-absolute px-2">الاختبارات</legend>
+                                <div class="test py-3 px-3">
+                                    <div class="test1 testProfile">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <span class="me-2 fw-bold">User research</span>
+                                    </div>
+                                    <div class="test1 testProfile">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <span class="me-2 fw-bold">UI Design</span>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

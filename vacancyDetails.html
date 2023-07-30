@@ -1,0 +1,268 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="homeAfterLog.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder=" ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="homeAfterLog py-5">
+        <div class="container-fluid pt-5">
+            <div class="row px-3 px-lg-5 pt-3">
+                    <div class="col-lg-8 m-auto">
+                            <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                                <div class="jobInfo ">
+                                    <div class="row">
+                                        <div class="col-md-12 d-flex justify-content-between mb-3">
+                                            <div class="jobTitle jobVacancy">
+                                                <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                            </div>
+                                            <div class="dropdown dropdownVacancy1 text-start ms-2">
+                                                <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </a>
+                                                <ul class="dropdown-menu text-end">
+                                                  <li>
+                                                    <a id="shareIcon" onclick="openShareIcon(id)" class="dropdown-item text-black" href="#">مشاركه</a>
+                                                </li>
+                                                  <li><a class="dropdown-item text-black" href="#">اغلاق</a></li>
+                                                  <li><a class="dropdown-item text-black" href="#">تعديل</a></li>
+                                                  <li><a class="dropdown-item text-black" href="#">حذف</a></li>
+                                                </ul>
+                                                <div id="shareIcon10" class="socialIcon socialIconVacancydet ahmed iicon px-3 py-2 position-absolute text-center d-none">
+                                                    <div class="d-flex justify-content-between deleteIcon">
+                                                        <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                                        <i id="shareIcon1" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                    <i class="fa-brands fa-square-facebook "></i>
+                                                    <i class="fa-brands fa-square-twitter"></i>
+                                                    <i class="fa-brands fa-square-whatsapp"></i>
+                                                    <i class="fa-brands fa-facebook-messenger"></i>
+                                                    <div class="copyInput d-flex my-2">
+                                                        <button class="btn copyButton">نسخ</button>
+                                                        <input type="text" class="">
+                                                    </div>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="fw-bold my-2">تفاصيل الوظيفة</h6>
+                                <p > مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                                <p>وسيكون مسئول علي :</p>
+                                <ul class="px-0">
+                                    <li>- إنشاء تصميمات من خلال فهم متطلبات العميل وتعليقات العملاء ونتائج قابلية الاستخدام</li>
+                                    <li>- نشاء تدفقات للمستخدم وإطارات سلكية ونماذج أولية بالاحجام الطبيعية منخفضة وعالية الدقة</li>
+                                    <li>- إجراء تحليل المقاييس بعد الإطلاق لإبلاغ جهود تحسين التصميم وتجربة المستخدم</li>
+                                </ul>
+                                <h6 class="fw-bold my-2">المؤهلات</h6>
+                                <ul class="px-0">
+                                    <li>خبرة واسعة في تصميم UI و UX ، خاصة لتطبيقات الهاتف المحمول</li>
+                                    <li>معرفة الخبراء بـ Figma و Photoshop و Illustrator</li>
+                                    <li>خبرة في تصميم الواجهات باللغتين العربية والإنجليزية</li>
+                                    <li>الخبرة المالية السابقة ميزة إضافية</li>
+                                    <li>الخبرة في البحث والاختبار المستخدم أمر لا بد منه</li>
+                                    <li>إجادة اللغة الإنجليزية</li>
+                                </ul>
+                                <h6 class="fw-bold mt-3">المستوي الوظيفي</h6>
+                                <div class="jobType"> 
+                                <span class="ms-4">عدد سنوات الخبرة : 0-3 </span>
+                                <span class="ms-4">المستوي : مبتدئ</span>
+                                </div>
+                                <div class="jobType">
+                                    <h6 class="fw-bold mt-3">نوع العمل</h6>
+                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                </div>
+                                <h6 class="fw-bold mt-3">المهارات المطلوبة</h6>
+                                <div class="jobDetails py-2">
+                                    <span class="ms-2 mb-2">UI/UX</span>
+                                    <span class="ms-2 mb-2">UI Design</span>
+                                    <span class="ms-2 mb-2">Figma</span>
+                                    <span class="ms-2 mb-2">Adobe XD</span>
+                                    <div class="clear-fix"></div>
+                                </div>
+                                <div class="d-flex justify-content-between pt-3 appliedButtonJob align-items-center">
+                                    <div class="d-flex">
+                
+                                        <div class="me-2 appliedspan appliedspanView d-flex justify-content-center align-items-center px-3 py-2">
+                                            <a href="applicants.html" class="px-3 text-white text-decoration-none">50 متقدم للوظيفة</a>
+                                        </div>
+                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                            <span class="px-3">لم يتم رؤية 9</span>
+                                        </div>
+                                    </div>
+                                    <div class="corporateSee">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span>507</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

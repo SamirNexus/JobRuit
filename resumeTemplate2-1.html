@@ -1,0 +1,345 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body class="templateBody" dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="homeAfterComplete.html">الوظائف</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="appliedList.html">المقدم عليها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="corporate.html">الشركات</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item mx-3 mx-lg-0">
+                        <a class="nav-link" href="savedList.html">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-0 ">
+                        <a class="nav-link" href="favList.html">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="resumeTemplate2 position-relative">
+        <div class="templateNavbar pt-5 bg-white position-relative">
+            <div class="container d-flex justify-content-between pb-3 mt-5">
+                <p onclick="showEditName()" class="m-0 align-items-center d-flex fw-bold"> <i class="fa-regular fa-pen-to-square ms-2"></i> Yassin Khaled Resume</p>
+                <div class="templateNavbarButton">
+                   <button class="btn showButton px-5 text-white border-0">عرض</button>
+                   <button onclick="toggleMoreOptons()" class="btn px-5 me-2 moreButton border-0">المزيد <i class="fa-solid fa-chevron-down me-1"></i></button>
+                   <div id="moreOptions" class="moreOptions position-absolute bg-white py-2 ps-5 pe-3 d-none">
+                    <a href="" class="pb-2">حفظ نسخه</a>
+                    <a href="" class="pb-2">pdf حفظ الملف</a>
+                    <a href="" class="pb-2">تعديل</a>
+                    <a href="" class="pb-2">حذف</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4">
+            <div class="row">
+                <div class="col-2">
+                    <div class="resumeColor">
+                       <a href="resumeTemplate2.html">
+                          <div class="color1 m-auto mb-4 rounded-circle"></div>
+                       </a>
+                       <a href="resumeTemplate2-1.html">
+                        <div class="color2 m-auto mb-4 rounded-circle position-relative">
+                            <div class="checkedColor rounded-circle d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                        </div>
+                    </a>
+                       <a href="resumeTemplate2-2.html">
+                        <div class="color3 m-auto mb-4 rounded-circle"></div>
+                    </a> 
+                        <a href="resumeTemplate2-3.html">
+                            <div class="color4 m-auto mb-4 rounded-circle"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-10 ps-5">
+                    <div class="ps-5">
+                        <div class="ps-5">
+                            <div class="resumeBackground resumeBackground2 ps-5 py-5 position-relative" dir="ltr">
+                                <div class="resumeBackgroundInfo">
+                                    <div class="container">
+                                            <div class="template2Image position-absolute ">
+                                                  <img src="images/team-2-pgtnxq5mtl6wr5reshxlp75memleebu4bm7sq4444w.png" class="rounded-circle" alt="">
+                                            </div>
+                                            <div class="row contactInfoTemplate2 text-white">
+                                                <div class="col-6">
+                                                    <h3 class="fw-bold">Yassin Khaled</h3>
+                                                    <h5 class="ps-2">UI/UX Designer</h5>
+                                                </div>
+                                                <div class="col-6 paddingMore">
+                                                    <div class="d-flex">
+                                                        <i class="fa-solid fa-phone"></i> 
+                                                        <span class="ms-2 mb-1">011-234-5678</span>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <i class="fa-solid fa-location-dot"></i> 
+                                                        <span class="ms-2 mb-1">Tanta Algharbia,Egypt</span>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <i class="fa-solid fa-envelope"></i> 
+                                                        <span class="ms-2 mb-1">Yassin.khaled1299@gmail.com</span>
+                                                    </div>
+                                                    <div class="template2Contact template2Contact1 d-flex">
+                                                        <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                                            <i class="fa-brands fa-facebook-f"></i>
+                                                        </div>
+                                                        <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                                            <i class="fa-brands fa-behance"></i>
+                                                        </div>
+                                                        <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                                            <i class="fa-brands fa-dribbble"></i>
+                                                        </div>
+                                                        <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                                            <i class="fa-brands fa-pinterest-p"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="resumeBackgroundInfo2 position-absolute ">
+                                    <div class="pt-5 px-5 mt-5">
+                                        <div class="template2About py-3">
+                                            <h5 class="fw-bold">About me</h5>
+                                            <p>UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. Specializes in creating clean, artful designs that are both intuitive and functional.</p>
+                                        </div>
+                                        <div class="template2Education template2Education1 pb-3">
+                                            <h5 class="fw-bold">Education History</h5>
+                                            <div class="d-flex py-3">
+                                                <div class="borderImageTemplate2">
+                                                    <img src="images/hate.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold mb-2">Faculty of Computer and Information Sciences</h6>
+                                                    <p class="mb-1 p1">Cairo University</p>
+                                                    <p class="mb-0 p2">2017-2021</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="template2Work template2Work1 pb-3">
+                                            <h5 class="fw-bold">Work Experience</h5>
+                                            <div class="d-flex py-3">
+                                                <div class="borderImageTemplate2">
+                                                    <img src="images/noon.jpg" class="w-100" alt="">
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold mb-2">Senior UI/UX Designer</h6>
+                                                    <p class="mb-1 p1">Noon Company</p>
+                                                    <p class="mb-0 p2">February 2022 - May 2022</p>
+                                                </div>
+                                            </div>
+                                            <p>UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. Specializes in creating clean, artful designs that are both intuitive and functional.</p>
+                                            <div class="d-flex py-3">
+                                                <div class="borderImageTemplate2">
+                                                    <img src="images/257270694_4514356318684120_2195962635714332997_n.png" class="w-100" alt="">
+                                                </div>
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold mb-2">Senior UI/UX Designer</h6>
+                                                    <p class="mb-1 p1">ABG Company</p>
+                                                    <p class="mb-0 p2">February 2022 - Present</p>
+                                                </div>
+                                            </div>
+                                            <p>UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. Specializes in creating clean, artful designs that are both intuitive and functional.</p>
+                                        </div>
+                                        <div class="template2Skills pb-3">
+                                            <h5 class="fw-bold">Skills</h5>
+                                            <ul class="">
+                                                <li class="pe-5">Creative Design</li>
+                                                <li class="pe-5">Adobe XD</li>
+                                                <li class="pe-5">Adobe photoshop</li>
+                                                <li class="pe-5">Adobe After Effect</li>
+                                                <div class="clear-fix"></div>
+                                            </ul>
+                                        </div>
+                                        <div class="template2Skills pb-3">
+                                            <h5 class="fw-bold">Language</h5>
+                                            <ul class="">
+                                                <li class="pe-5">Arabic</li>
+                                                <li class="pe-5">English</li>
+                                                <li class="pe-5">Adobe photoshop</li>
+                                                <li class="pe-5">Adobe After Effect</li>
+                                                <div class="clear-fix"></div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="editName" class="editName d-none position-absolute top-0 start-0 end-0 vh-100 d-flex justify-content-center align-items-center">
+            <div class="editName1 px-4 py-4">
+                <h5>تعديل اسم السيرة الذاتية</h5>
+                <form action="" class="py-3">
+                    <label for="fileName">اسم الملف</label>
+                    <input type="text" class="form-control" value="Yassin Khaled Resume">
+                    <div class="mt-4">
+                        <button class="btn ms-3">حفظ</button>
+                        <a onclick="closeEditName()" href="">إلغاء</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

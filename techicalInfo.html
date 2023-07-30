@@ -1,0 +1,704 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mobiscroll.javascript.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar bg-white navbar-expand-lg py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="homeAfterLog.html">الوظائف</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="appliedList2.html">المقدم عليها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="corporate1.html">الشركات</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item mx-3 mx-lg-0">
+                        <a class="nav-link" href="saveList.html">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-0 ">
+                        <a class="nav-link" href="favList1.html">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="completeData pt-5">
+        <div class="container-fluid pe-5 pt-5">
+            <div class="row">
+                <div class="col-lg-2 px-lg-0 mb-4 pt-4">
+                    <div class="person position-fixed text-center bg-white py-4">
+                        <div class="detailsImage m-auto">
+                            <img id="newImageSrc2" src="images/149071.png" class="w-100 rounded-circle" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Yassin Khaled</h5>
+                        <span class="specialParagraph">Job title</span>
+                        <ul class="px-0 text-end py-3 px-3 text-center">
+                            <a href="completeData.html">
+                                <li class="fw-bold my-3 py-2">المعلومات العامة</li>
+                            </a>
+                            <a href="personalData.html">
+                                <li class="fw-bold my-3 py-2">المعلومات الشخصية</li>
+                            </a>
+                            <a href="techicalInfo.html">
+                                <li class="fw-bold my-3 activeLink py-2 px-4">معلومات الوظيفية</li>
+                            </a>
+                            <a href="resume.html">
+                                <li class="fw-bold my-3 py-2">السيرة الذاتية</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 py-4 morePadding">
+                    <div class="personInfo py-4 px-4 bg-white">
+                            <form action="">
+                            <fieldset class="border border-1 p-4 position-relative">
+                                <legend class="position-absolute px-2">التواصل</legend>
+                                <div class="row pt-3">
+                                    <div class="col-lg-6 py-2 selectEdit2">
+                                        <label for="phoneNumber" class="py-2 fw-bold d-flex">رقم الهاتف
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="inputs py-2 px-2">
+                                            <select name="" id="" class="border-top-0 border-bottom-0 border-end-0">
+                                             <option value="+20">20+</option>
+                                             <option value="+20">212+</option>
+                                             <option value="+20">213+</option>
+                                             <option value="+20">966+</option>
+                                             <option value="+20">971+</option>
+                                            </select>
+                                             <input id="phone" name="userPhone" class="border-0" type="tel" placeholder="اكتب رقم الهاتف">
+                                         </div>
+                                    </div> 
+                                    <div class="col-lg-6 py-2">
+                                        <label for="email2" class="py-2 fw-bold d-flex">الايميل
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="selectEdit">
+                                            <div class="inputs py-2 px-2">
+                                                <input id="email2" name="userEmail2" class="border-0" type="email" placeholder="Yassin.khaled@gmail.com" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 py-2">
+                                        <label for="companyWeb" class="py-2 fw-bold d-flex">مواقع التواصل
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="row">
+                                            <div class="col-lg-6 pb-3">
+                                                    <div class="inputs pe-2 d-flex">
+                                                        <input id="companyWeb" name="companyWeb" class="border-0" type="text">
+                                                        <div class="me-auto companyLiks d-flex justify-content-center align-items-center">
+                                                            <i class="fa-solid fa-globe"></i>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-lg-6 pb-3">
+                                                    <div class="inputs pe-2 d-flex">
+                                                        <input id="companyLikedin" name="companyLikedin" class="border-0" type="text">
+                                                        <div class="me-auto companyLiks d-flex justify-content-center align-items-center">
+                                                            <i class="fa-brands fa-linkedin-in"></i>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-lg-6 pb-3">
+                                                    <div class="inputs pe-2 d-flex">
+                                                        <input id="companyFacebook" name="companyFacebook" class="border-0" type="text">
+                                                        <div class="me-auto companyLiks d-flex justify-content-center align-items-center">
+                                                            <i class="fa-brands fa-facebook-f"></i>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="col-lg-6 pb-3">
+                                                    <div class="inputs pe-2 d-flex">
+                                                        <input id="companyTwitter" name="companyTwitter" class="border-0" type="text">
+                                                        <div class="me-auto companyLiks d-flex justify-content-center align-items-center">
+                                                            <i class="fa-brands fa-twitter"></i>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">خبرات العمل</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-6 py-2">
+                                            <label for="companyName" class="py-2 fw-bold d-flex">اسم الشركه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="companyName" name="companyName" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 selectEdit2 py-2">
+                                            <label for="positionName" class="py-2 fw-bold d-flex">المسمى الوظيفى
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="positionName" name="positionName" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 py-2">
+                                            <label for="description" class="py-2 fw-bold d-flex">الوصف
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <div class="inputs  py-2 px-2">
+                                                    <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3"></textarea>
+                                                  </div>
+                                            </div>
+                                        </div>  
+                                        <div class="row">
+                                            <label for="" class="py-2 fw-bold d-flex">تاريخ البدء
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>الشهر</option>
+                                                        <option value="يناير">يناير</option>
+                                                        <option value="فبراير">فبراير</option>
+                                                        <option value="مارس">مارس</option>
+                                                        <option value="ابريل">ابريل</option>
+                                                        <option value="مايو">مايو</option>
+                                                        <option value="يونيو">يونيو</option>
+                                                        <option value="يوليو">يوليو</option>
+                                                        <option value="اغسطس">اغسطس</option>
+                                                        <option value="سبتمبر">سبتمبر</option>
+                                                        <option value="اكتوبر">اكتوبر</option>
+                                                        <option value="نوفمبر">نوفمبر</option>
+                                                        <option value="ديسمبر">ديسمبر</option>
+                                                    </select>   
+                                                </div>                                     
+                                            </div>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>السنه</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2019">2020</option>
+                                                        <option value="2019">2021</option>
+                                                        <option value="2019">2022</option>
+                                                    </select> 
+                                                </div>                                       
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label for="" class="py-2 fw-bold d-flex">تاريخ النهاية
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>الشهر</option>
+                                                        <option value="يناير">يناير</option>
+                                                        <option value="فبراير">فبراير</option>
+                                                        <option value="مارس">مارس</option>
+                                                        <option value="ابريل">ابريل</option>
+                                                        <option value="مايو">مايو</option>
+                                                        <option value="يونيو">يونيو</option>
+                                                        <option value="يوليو">يوليو</option>
+                                                        <option value="اغسطس">اغسطس</option>
+                                                        <option value="سبتمبر">سبتمبر</option>
+                                                        <option value="اكتوبر">اكتوبر</option>
+                                                        <option value="نوفمبر">نوفمبر</option>
+                                                        <option value="ديسمبر">ديسمبر</option>
+                                                    </select> 
+                                                </div>                                       
+                                            </div>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>السنه</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2019">2020</option>
+                                                        <option value="2019">2021</option>
+                                                        <option value="2019">2022</option>
+                                                    </select>  
+                                                </div>                                      
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <input id="status1" name="userStatus1" class="border-0 radio" type="checkbox" value="userStatus1">
+                                            <label for="status1">أعمل حاليا في هذه الوظيفة</label>
+                                        </div>
+                                    </div>
+                                    <div id="addSection"></div>
+                                    <div onclick="addExperinceSection()" class="col-3 plusMore rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">الكورسات</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-6 py-2">
+                                            <label for="educationalEntity" class="py-2 fw-bold d-flex">اسم الجهه التعليمية
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="educationalEntity" name="educationalEntity" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 selectEdit2 py-2">
+                                            <label for="courseName" class="py-2 fw-bold d-flex">اسم الكورس
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="courseName" name="courseName" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="row">
+                                            <label for="" class="py-2 fw-bold d-flex">تاريخ الكورس
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>الشهر</option>
+                                                        <option value="يناير">يناير</option>
+                                                        <option value="فبراير">فبراير</option>
+                                                        <option value="مارس">مارس</option>
+                                                        <option value="ابريل">ابريل</option>
+                                                        <option value="مايو">مايو</option>
+                                                        <option value="يونيو">يونيو</option>
+                                                        <option value="يوليو">يوليو</option>
+                                                        <option value="اغسطس">اغسطس</option>
+                                                        <option value="سبتمبر">سبتمبر</option>
+                                                        <option value="اكتوبر">اكتوبر</option>
+                                                        <option value="نوفمبر">نوفمبر</option>
+                                                        <option value="ديسمبر">ديسمبر</option>
+                                                    </select> 
+                                                </div>                                       
+                                            </div>
+                                            <div class="col-lg-6 py-2 mb-3">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>السنه</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2019">2020</option>
+                                                        <option value="2019">2021</option>
+                                                        <option value="2019">2022</option>
+                                                    </select>    
+                                                </div>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="addSection2"></div>
+                                    <div onclick="addCourseSection()" class="col-3 plusMore rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">الشهادات</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-6 py-2">
+                                            <label for="educationalEntity2" class="py-2 fw-bold d-flex">اسم الجهه التعليمية
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="educationalEntity2" name="educationalEntity2" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 selectEdit2 py-2">
+                                            <label for="companyName" class="py-2 fw-bold d-flex">اسم الشهادة
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="companyName" name="companyName" class="border-0" type="text" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="row">
+                                            <label for="" class="py-2 fw-bold d-flex">تاريخ الشهادة
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="col-lg-6 py-2">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>الشهر</option>
+                                                        <option value="يناير">يناير</option>
+                                                        <option value="فبراير">فبراير</option>
+                                                        <option value="مارس">مارس</option>
+                                                        <option value="ابريل">ابريل</option>
+                                                        <option value="مايو">مايو</option>
+                                                        <option value="يونيو">يونيو</option>
+                                                        <option value="يوليو">يوليو</option>
+                                                        <option value="اغسطس">اغسطس</option>
+                                                        <option value="سبتمبر">سبتمبر</option>
+                                                        <option value="اكتوبر">اكتوبر</option>
+                                                        <option value="نوفمبر">نوفمبر</option>
+                                                        <option value="ديسمبر">ديسمبر</option>
+                                                    </select>
+                                                </div>                                        
+                                            </div>
+                                            <div class="col-lg-6 py-2 mb-3">
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option>السنه</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2019">2020</option>
+                                                        <option value="2019">2021</option>
+                                                        <option value="2019">2022</option>
+                                                    </select>  
+                                                </div>                                      
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="addSection3"></div>
+                                    <div onclick="addCertificateSection()" class="col-3 plusMore rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">المهارات</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-12 py-2">
+                                            <label for="skills" class="py-2 fw-bold d-flex"> اضف مهاراتك
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <label class="mx-0">
+                                                    <input mbsc-input id="demo-multiple-select-input" placeholder="المهارات" data-dropdown="true" data-input-style="outline" data-label-style="stacked" data-tags="true" />
+                                                </label>
+                                                <select id="demo-multiple-select" multiple>
+                                                    <option value="b">UI/UX</option>
+                                                    <option value="f">UI Design</option>
+                                                    <option value="d">Adobe XD</option>
+                                                    <option value="s">UI</option>
+                                                    <option value="a">User research</option>
+                                                </select>
+                                            </div>
+                                        </div> 
+                                        <div class="jobDetails pb-3">
+                                            <span class="ms-2">UI/UX</span>
+                                            <span class="ms-2">UI Design</span>
+                                            <span class="ms-2">Adobe XD</span>
+                                            <span class="ms-2">UI</span>
+                                            <span class="ms-2">User research</span>
+                                            <div class="clear-fix"></div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">الاهتمامات</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-12 py-2">
+                                            <label for="concerns2" class="py-2 fw-bold d-flex">اضف اهتماماتك
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectEdit3">
+                                                <label class="mx-0">
+                                                    <input mbsc-input id="demo-multiple-select-input1" placeholder="الاهتمامات" data-dropdown="true" data-input-style="outline" data-label-style="stacked" data-tags="true" />
+                                                </label>
+                                                <select id="demo-multiple-select1" multiple>
+                                                    <option value="b">UI/UX</option>
+                                                    <option value="f">UI Design</option>
+                                                    <option value="d">Adobe XD</option>
+                                                    <option value="s">UI</option>
+                                                    <option value="a">User research</option>
+                                                </select>
+                                            </div>
+                                        </div> 
+                                        <div class="jobDetails py-3">
+                                                <span class="ms-2 mb-2">Software Engneering</span>
+                                                <span class="ms-2 mb-2">Social Media</span>
+                                                <span class="ms-2 mb-2">IT</span>
+                                                <div class="clear-fix"></div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">نماذج العمل</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-12 py-2">
+                                            <div class="d-flex">
+                                                <p class="pt-2 fw-bold">اضف نماذج من عملك</p>
+                                                <div class="requiredAsterisk requiredAsterisk1">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </div>
+                                            <div class="selectEdit3">
+                                                <div class="inputs py-2 px-2">
+                                                    <input id="work" name="work" class="border-0" type="file" placeholder="" value="">
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <form action="" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">اللغات</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-6 py-2">
+                                            <label for="educationalEntity" class="py-2 fw-bold d-flex"> اسم اللغة
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option disabled selected hidden>اسم اللغه</option>
+                                                    <option value="انجليزى">انجليزى</option>
+                                                    <option value="عربى">عربى</option>
+                                                </select> 
+                                            </div>   
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label for="educationalEntity" class="py-2 fw-bold d-flex"> المستوي
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                                <div class="selectdiv">
+                                                    <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                        <option disabled selected hidden>المستوى</option>
+                                                        <option value="ممتاز">ممتاز</option>
+                                                        <option value="جيد جدا">جيد جدا</option>
+                                                        <option value="جيد">جيد</option>
+                                                        <option value="اساسى">اساسى</option>
+                                                    </select> 
+                                                </div>                                       
+                                        </div>
+                                    </div>
+                                    <div id="addSection4"></div>
+                                    <div onclick="addLangSection()" class="col-3 plusMore rounded-circle d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div class="row">
+                                <div class="col-8 my-3">
+                                   <a href="resume.html"><button class="saveInfo btn">حفظ</button></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/mobiscroll.javascript.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index3.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+
+</body>
+</html>

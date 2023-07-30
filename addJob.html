@@ -1,0 +1,421 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black " aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder="  ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="completeData w-75 m-auto pt-5">
+            <div class="pt-5 pb-3">
+                    <div class="py-4">
+                        <div class="personInfo py-4 px-4 bg-white">
+                            <form action="corporateHomeAfterCompleteData.html">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2"> إضافة وظيفة</legend>
+                                    <div class="row pt-3">
+                                        <div class="col-lg-6 py-2">
+                                            <label for="jobTitle" class="py-2 fw-bold d-flex">عنوان الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="inputs py-2 px-2">
+                                                <input id="jobTitle" name="jobTitle" class="border-0 birthdayuser" type="text" placeholder=" " value="senior">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label class="py-2 fw-bold d-flex"> قسم الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option value="software">software</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">1</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select> 
+                                            </div>                                       
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label class="py-2 fw-bold d-flex">نوع الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option value="دوام كامل">دوام كامل</option>
+                                                    <option value="دوام كلى">دوام كلى</option>
+                                                    <option value="دوام جزئى">دوام جزئى</option>
+                                                </select>
+                                            </div>                                        
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label class="py-2 fw-bold d-flex opacity-0"> الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option value="العمل من المقر">العمل من المقر</option>
+                                                    <option value="العمل عن بعد">العمل عن بعد</option>
+                                                    <option value="ايام من المقر وايام عن بعد">ايام من المقر وايام عن بعم</option>
+                                                </select>
+                                            </div>                                        
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label class="py-2 fw-bold d-flex"> مستوى الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option value="سينيور">سينيور</option>
+                                                    <option value="متدرب"> متدرب</option>
+                                                    <option value="حديثى التخرج">حديثى التخرج</option>
+                                                    <option value="سينيور">سينيور</option>
+                                                </select>
+                                            </div>                                        
+                                        </div>
+                                        <div class="col-lg-6 py-2">
+                                            <label class="py-2 fw-bold d-flex opacity-0"> مستوى الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="selectdiv">
+                                                <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                                    <option value="0-3">0-3</option>
+                                                    <option value="2"> 2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                            </div>                                        
+                                        </div>
+                                        <div class="col-lg-12 py-2">
+                                            <label for="jobDesc" class="py-2 fw-bold d-flex">وصف الوظيفه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="inputs">
+                                                <div class="editTextUser px-3 py-1">
+                                                    <i id="bol" onclick="makeTextRight(id)" class="fa-solid fa-arrow-rotate-right ms-3"></i>
+                                                    <i id="bold" onclick="makeTextLeft(id)" class="fa-solid fa-arrow-rotate-left ms-3"></i>
+                                                    <!-- <i id="bold1" onclick="makeDot(id)" class="fa-solid fa-list-ul ms-3"></i> -->
+                                                    <!-- <i id="bold11" class="fa-solid fa-list-ol ms-3"></i> -->
+                                                    <i id="bold111" onclick="makeItalic(id)" class="fa-solid fa-italic ms-3"></i>
+                                                    <i id="bold1111" onclick="makeBold(id)" class="fa-solid fa-b"></i>
+                                                </div>
+                                                <div class=" py-2 px-2">
+                                                    <textarea class="bg-transparent ahmedAhmed ahmedAhmedText border-0 w-100" name="" placeholder="" id="bold1111T" rows="4">مطلوب مصمم واجهات وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم وسيكون مسئول علي : إنشاء تصميمات من خلال فهم متطلبات العميل وتعليقات العملاء ونتائج قابلية الاستخدام - إنشاء تدفقات للمستخدم وإطارات سلكية ونماذج أولية بالاحجام الطبيعية منخفضة وعالية الدقة-
+                                                    </textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 py-2">
+                                            <label for="qualify" class="py-2 fw-bold d-flex"> المؤهلات المطلوبه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="inputs">
+                                                <div class="editTextUser px-3 py-1">
+                                                    <i id="2bol" onclick="makeTextRight(id)" class="fa-solid fa-arrow-rotate-right ms-3"></i>
+                                                    <i id="2bold" onclick="makeTextLeft(id)" class="fa-solid fa-arrow-rotate-left ms-3"></i>
+                                                    <!-- <i id="bold1" onclick="makeDot(id)" class="fa-solid fa-list-ul ms-3"></i> -->
+                                                    <!-- <i id="bold11" class="fa-solid fa-list-ol ms-3"></i> -->
+                                                    <i id="2bold111" onclick="makeItalic(id)" class="fa-solid fa-italic ms-3"></i>
+                                                    <i id="2bold1111" onclick="makeBold(id)" class="fa-solid fa-b"></i>
+                                                </div>
+                                                <div class=" py-2 px-2">
+                                                    <textarea class="bg-transparent ahmedAhmed ahmedAhmedText border-0 w-100" name="" placeholder="" id="2bold1111T"  rows="4">معرفة الخبراء بـ Figma و Photoshop و Illustrator خبرة في تصميم الواجهات باللغتين العربية والإنجليزية الخبرة في البحث والاختبار المستخدم أمر لا بد منه ، إجادة اللغة الإنجليزية
+                                                    </textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 py-2">
+                                            <label for="qualify2" class="py-2 fw-bold d-flex"> المهارات المطلوبه
+                                                <div class="requiredAsterisk">
+                                                    <i class="fa-solid fa-asterisk"></i>
+                                                </div>
+                                            </label>
+                                            <div class="inputs py-2 px-2">
+                                                <input id="jobTitle" name="qualify2" class="border-0 birthdayuser" type="text" placeholder="" value="">
+                                            </div>
+                                            <div class="jobDetails my-3">
+                                                    <span class="ms-2 mb-2">Adobe XD</span>
+                                                    <span class="ms-2 mb-2">Figma</span>
+                                                    <span class="ms-2 mb-2">UI Design</span>
+                                                    <span class="ms-2 mb-2">UI/UX</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 d-flex my-3">
+                                            <button class="saveInfo w-100 btn py-2">حفظ</button>
+                                        </div>
+                                        <div class="col-3 d-flex my-3">
+                                            <a id="applyJob" onclick="showApplyJob(id)" class="saveInfo saveInfoEdit w-100 btn py-2"> اضافة اسئلة</a>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+    <div class="d-none infoorm" id="applyJob1">
+        <div class="payment position-absolute top-0 end-0 start-0 bottom-0 px-5 d-flex justify-content-center align-items-center">
+            <div class="paymentWaysss w-75 px-0 px-lg-5 py-4">
+                <div class="py-1 px-4 bg-white m-auto">
+                    <form action="">
+                        <div class="row pt-3">
+                            <div class="text-start">
+                                <i id="applyJob" onclick="showTeaaam(id)" class="fa-solid fa-xmark teaaaaaaaaaaaaaaaaamIcon"></i>
+                            </div>
+                            <!-- ---------------------New Addition----------------- -->
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input class="ms-2" type="checkbox" value="">
+                                    <!-- <i id="optioneIcons1" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">   نبذة عنك
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input type="checkbox" class="ms-2" value="">
+                                    <!-- <i id="optioneIcons2" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">   ما الذي يجعلك مناسبا للوظيفة؟
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input type="checkbox" class="ms-2" value="">
+                                    <!-- <i id="optioneIcons3" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">  ما هي توقعات راتبك؟
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input type="checkbox" class="ms-2" value="">
+                                    <!-- <i id="optioneIcons4" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">  ما الذي يجعلك المرشح المثالي لهذا المنصب؟
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input type="checkbox" class="ms-2" value="">
+                                    <!-- <i id="optioneIcons5" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">   إذا عرضنا عليك منصبًا ، فمتى ستكون متاحًا للبدء؟
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <div class="d-flex align-items-center checkedBox quesIcon">
+                                    <input type="checkbox" class="ms-2" value="">
+                                    <!-- <i id="optioneIcons6" onclick="toggleIcone(id)" class="fa-regular fa-square ms-2"></i> -->
+                                    <span class="py-2 fw-bold d-flex infoormLabel">  هل يمكنك تزويدنا بنماذج من عملك؟
+                                        <div class="requiredAsterisk">
+                                            <i class="fa-solid fa-asterisk"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-4 mt-2">
+                                <button id="applyJo" onclick="showOkessage(id)" class="homeSend form-control btn border-0 text-white">اضف</button>
+                            </div>
+                        </div>
+                    </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

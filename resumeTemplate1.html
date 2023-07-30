@@ -1,0 +1,369 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="homeAfterComplete.html">الوظائف</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="appliedList.html">المقدم عليها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="corporate.html">الشركات</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item mx-3 mx-lg-0">
+                        <a class="nav-link" href="savedList.html">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-0 ">
+                        <a class="nav-link" href="favList.html">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="resumeTemplate1 position-relative">
+        <div class="templateNavbar pt-5 bg-white position-relative">
+            <div class="container d-flex justify-content-between pb-3 mt-5">
+                <p onclick="showEditName()" class="m-0 align-items-center d-flex fw-bold"> <i class="fa-regular fa-pen-to-square ms-2"></i> Yassin Khaled Resume</p>
+                <div class="templateNavbarButton">
+                   <button class="btn showButton px-5 text-white border-0">عرض</button>
+                   <button onclick="toggleMoreOptons()" class="btn px-5 me-2 moreButton border-0">المزيد <i class="fa-solid fa-chevron-down me-1"></i></button>
+                   <div id="moreOptions" class="moreOptions position-absolute bg-white py-2 ps-5 pe-3 d-none">
+                    <a href="" class="pb-2">حفظ نسخه</a>
+                    <a href="" class="pb-2">pdf حفظ الملف</a>
+                    <a href="" class="pb-2">تعديل</a>
+                    <a href="" class="pb-2">حذف</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4">
+            <div class="row">
+                <div class="col-2">
+                    <div class="resumeColor">
+                       <a href="resumeTemplate1.html">
+                          <div class="color1 m-auto mb-4 rounded-circle position-relative">
+                            <div class="checkedColor rounded-circle d-flex justify-content-center align-items-center position-absolute">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                          </div>
+                       </a>
+                       <a href="resumeTemplate1-2.html"><div class="color2 m-auto mb-4 rounded-circle"></div></a>
+                       <a href="resumeTemplate1-3.html"><div class="color3 m-auto mb-4 rounded-circle"></div></a> 
+                        <a href="resumeTemplate1-4.html"><div class="color4 m-auto mb-4 rounded-circle"></div></a>
+                    </div>
+                </div>
+                <div class="col-10 ps-4">
+                    <div class="resume1 ps-5 ms-5 position-relative">
+                        <div class="row ps-5">
+                            <div class="col-lg-9 bg-white py-5" dir="ltr">
+                                <div class="resumeImage px-3 py-4 d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="images/team-2-pgtnxq5mtl6wr5reshxlp75memleebu4bm7sq4444w.png" alt="">
+                                    <div>
+                                        <h5 class="fw-bold">Yassin Khaled</h5>
+                                        <span class="fw-bold">UI/UX Designer</span>
+                                        <p class="mt-1">UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. Specializes in creating clean, artful designs that are both intuitive and functional.</p>
+                                        <div class="socialIcon d-flex">
+                                            <div class="d-flex align-items-center justify-content-center me-2 rounded-circle text-white">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-center me-2 rounded-circle text-white">
+                                                <i class="fa-brands fa-behance"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-center me-2 rounded-circle text-white">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-center me-2 rounded-circle text-white">
+                                                <i class="fa-brands fa-pinterest-p"></i>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-center rounded-circle text-white">
+                                                <i class="fa-brands fa-skype"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-5 mt-3">
+                                    <div class="resumeRight ps-2 pt-5 mt-5">
+                                        <div class="px-3 pt-5 mt-5">
+                                            <h5 class="fw-bold mb-3">Education History</h5>
+                                            <div class="education1 py-2">
+                                                <div class="ps-3 educationDetails">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="fw-bold">Cairo University</h6>
+                                                        <h6 class="fw-bold">2017 - 2021</h6>
+                                                    </div>
+                                                    <span>Computer and Information Sciences</span>
+                                                    <p class="my-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do iusmod incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="px-3 pt-4">
+                                            <h5 class="fw-bold mb-3">Work Experience</h5>
+                                            <div class="education1 py-2 mb-3">
+                                                <div class="ps-3 educationDetails">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="fw-bold">Graphic Designer</h6>
+                                                        <h6 class="fw-bold">2017 - 2021</h6>
+                                                    </div>
+                                                    <span>ABG Company</span>
+                                                    <p class="my-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do iusmod incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="px-3 pt-4">
+                                            <div class="education1 py-2 mb-3">
+                                                <div class="ps-3 educationDetails">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="fw-bold">Graphic Designer</h6>
+                                                        <h6 class="fw-bold">2017 - 2021</h6>
+                                                    </div>
+                                                    <span>ABG Company</span>
+                                                    <p class="my-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do iusmod incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="px-3 pt-4">
+                                            <div class="education1 py-2 mb-3">
+                                                <div class="ps-3 educationDetails">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="fw-bold">Graphic Designer</h6>
+                                                        <h6 class="fw-bold">2017 - 2021</h6>
+                                                    </div>
+                                                    <span>ABG Company</span>
+                                                    <p class="my-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do iusmod incididunt ut labore et dolore magna aliqua.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 pt-5 text-white resumeLeft" dir="ltr">
+                                <div class="pt-5 mt-3">
+                                    <div class="pt-5 mt-5">
+                                        <div class="resumeContact pt-5 mt-5">
+                                            <h5 class="fw-bold mb-3">Contact Info</h5>
+                                            <p><i class="fa-solid fa-envelope"></i> Yassin.khaled1299@gmail.com</p>
+                                            <p><i class="fa-solid fa-phone"></i> 011-234-5678</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Tanta Algharbia, Egypt</p>
+                                        </div>
+                                        <div class="about-percentage my-5">
+                                            <h5 class="fw-bold mb-3">Skills</h5>
+                                            <p class=" mb-0 pb-2">Adobe Photoshop</p>
+                                            <div class=" about-percent mb-2">
+                                                <div class="about-percent1 d-flex justify-content-between align-items-center">
+                                                    <span class="mb-0 ms-auto">90%</span>
+                                                </div>
+                                            </div>
+                                            <p class=" mb-0 pb-2">Adobe XD</p>
+                                            <div class=" about-percent mb-2">
+                                                <div class="about-percent1 about-percent2  d-flex justify-content-between align-items-center">
+                                                    <span class="mb-0 ms-auto">80%</span>
+                                                </div>
+                                            </div>
+                                            <p class=" mb-0 pb-2">Adobe After Effect</p>
+                                            <div class=" about-percent mb-2">
+                                                <div class="about-percent1 about-percent3 d-flex justify-content-between align-items-center">
+                                                    <span class="mb-0 ms-auto">70%</span>
+                                                </div>
+                                            </div>
+                                            <p class=" mb-0 pb-2">Creative Design</p>
+                                            <div class=" about-percent mb-2">
+                                                <div class="about-percent1 about-percent4 d-flex justify-content-between align-items-center">
+                                                    <span class="mb-0 ms-auto">60%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="languages">
+                                            <h5 class="fw-bold mb-3">Language</h5>
+                                            <div class="language1 mb-2">
+                                                <p class="mb-1">English Skill</p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star starGray"></i>
+                                                <i class="fa-solid fa-star starGray"></i>
+                                            </div>
+                                            <div class="language1">
+                                                <p class="mb-1">Arabic Skill</p>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star starGray"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="editName" class="editName d-none position-absolute top-0 start-0 end-0 vh-100 d-flex justify-content-center align-items-center">
+            <div class="editName1 px-4 py-4">
+                <h5>تعديل اسم السيرة الذاتية</h5>
+                <form action="" class="py-3">
+                    <label for="fileName">اسم الملف</label>
+                    <input type="text" class="form-control" value="Yassin Khaled Resume">
+                    <div class="mt-4">
+                        <button class="btn ms-3">حفظ</button>
+                        <a onclick="closeEditName()" href="">إلغاء</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

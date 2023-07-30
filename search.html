@@ -1,0 +1,851 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body class="templateBody" dir="rtl">
+  <nav class="navbar navbar-expand-lg py-0 bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="homeAfterLog.html">الوظائف</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="appliedList.html">المقدم عليها</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="corporate.html">الشركات</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+            <div class="d-flex w-100">
+                <input class="form-control searchInput" type="search" placeholder="عن أي شركه تبحث..." aria-label="Search">
+                <button class="btn searchButton" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <div class="d-flex align-items-center">
+                <li class="nav-item mx-3 mx-lg-0">
+                    <a class="nav-link" href="savedList.html">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </a>
+                </li>
+                <li class="nav-item mx-3 mx-lg-0 ">
+                    <a class="nav-link" href="favList.html">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </li>
+                <li class="nav-item" onclick="showMoreDropdown()">
+                    <a class="nav-link" href="#">
+                        <i class="fa-regular fa-bell"></i>
+                    </a>
+                </li>
+                <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                    <h4>الاشعارات</h4>
+                    <div class="notificationsList scrollBar">
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                        <li class="seemoreItem px-2">
+                            <a href="">
+                                <div class="d-flex">
+                                    <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                    <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                </div>
+                                <p class="text-start">اليوم 12:00 م</p>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                <li class="nav-item w-25 dropdown dropdown-toggle2">
+                    <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                    </a>
+                    <ul class="dropdown-menu text-center py-3 px-3">
+                      <li>
+                        <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                    </li>
+                      <li>
+                        <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                    </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown me-4 languagesDropdown">
+                    <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        العربية
+                    </a>
+                    <ul class="dropdown-menu px-3">
+                      <li>
+                        <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                    </li>
+                      <li>
+                        <a class="dropdown-item text-center" href="#">الالمانية</a>
+                    </li>
+                    </ul>
+                </li>
+            </div>
+        </ul>
+      </div>
+    </div>
+</nav>
+    <section class="resumeTemplate2 position-relative">
+        <div class="templateNavbar searchNavbar pt-5 bg-white position-relative">
+            <div class="container-fluid mt-5">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <div class="btn-group ms-4 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                الوظائف
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الوظائف 
+                                    <i id="check1" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">التدريب
+                                <i id="check2" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-4 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                تاريخ النشر
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">كل الاوقات 
+                                    <i id="check3" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">اخر 24 ساعة
+                                <i id="check4" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">اخر اسبوع 
+                                <i id="check5" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">اخر شهر 
+                                <i id="check6" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-4 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                المستوي الوظيفي
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">متدرب 
+                                    <i id="check7" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">مبتدئ 
+                                <i id="check8" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">خبير 
+                                <i id="check9" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">مدير 
+                                <i id="check10" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-4 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                سنوات الخبرة
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">1 
+                                    <i id="check11" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">2 
+                                <i id="check12" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">3 
+                                <i id="check13" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">4 
+                                <i id="check14" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-3 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                نوع الوظيفة
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">دوام كامل
+                                    <i id="check15" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">دوام جزئي 
+                                <i id="check16" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">من المقر 
+                                <i id="check17" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">عن بعد 
+                                <i id="check18" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-3 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                الدولة
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">مصر
+                                    <i id="check19" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">امريكا 
+                                <i id="check20" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">هولندا 
+                                <i id="check21" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">اليمن 
+                                <i id="check22" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الكويت 
+                                <i id="chec23" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">السعودية 
+                                <i id="check24" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">قطر 
+                                <i id="check25" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">عمان 
+                                <i id="check26" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                          <div class="btn-group ms-3 mb-2">
+                            <li class="dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                المحافظة
+                            </li>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">القاهرة
+                                    <i id="check27" onclick="checkItem(id)" class="fa-regular fa-square"></i> 
+                                </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الجيزة 
+                                <i id="check28" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الاسماعيلية 
+                                <i id="check29" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الاسكندرية 
+                                <i id="check30" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الشرقية 
+                                <i id="chec31" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">الغربية 
+                                <i id="check32" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">المنوفية 
+                                <i id="check33" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                              <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">اسيوط 
+                                <i id="check34" onclick="checkItem(id)" class="fa-regular fa-square"></i>
+                              </a>
+                            </li>
+                            </ul>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                </nav> 
+            </div>
+        </div>
+    </section>
+    <section class="homeAfterLog py-5">
+      <div class="container-fluid">
+          <div class="row px-3 px-lg-5 pt-3">
+              <div class="col-lg-2 px-0 mb-4">
+                  <div class="person text-center bg-white py-4 px-3 mb-3">
+                      <div class="userImage position-relative m-auto">
+                          <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                          <img id="userImageBorder" class="position-absolute userImageBorder d-none" src="images/Group 18474.png" alt="">
+                      </div>
+                      <h5 class="mb-0 mt-2 fw-bold">Yassin Khaled</h5>
+                      <span class="specialParagraph">UI/UX Designer</span>
+                      <p class="text-end mb-0 mt-2"> بياناتك مكتملة بنسبة %90</p>
+                      <div class="complete completePercentage">
+                          <div class="completePercentage1 text-start ps-4">
+                              <a class="text-white" href="">90%</a>
+                          </div>
+                      </div>
+                      <div class="complete mt-3">
+                          <a href="completeData.html">حدث بياناتك</a>
+                      </div>
+                  </div>
+                  <div class="person bg-white py-4 px-3">
+                      <h5 class="mt-2 fw-bold">التوفر</h5>
+                      <div class="row my-3">
+                          <div onclick="changePosition()" class="activeButton col-lg-5 position-relative rounded-pill">
+                              <button id="activeButton1" class="activeButton1 rounded-circle position-absolute btn"></button>
+                          </div>  
+                          <span id="availableSpan" class="availableSpan fw-bold col-lg-7">متاح للتوظيف؟</span>
+                      </div>
+                      <div id="selectdivHome" class="selectdiv selectdivHome my-2 d-none">
+                          <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                              <option>مجال العمل</option>
+                              <option value="">مجال العمل</option>
+                              <option value="">مجال العمل</option>
+                              <option value="">مجال العمل</option>
+                              <option value="">مجال العمل</option>
+                              <option value="">مجال العمل</option>
+                          </select> 
+                      </div> 
+                      <h5 class="mt-3 fw-bold">الزيارات</h5>
+                      <p class="fw-bold specialColor">لديك 5 زيارات هذا الشهر</p>
+                      <h5 class="mt-3 fw-bold">المهارات</h5>
+                      <div class="userSkills">
+                              <span>Adobe XD</span>
+                              <span>UI Design</span>
+                              <span>Figma</span>
+                              <span>User research</span>
+                              <span>UI</span>
+                              <span>Product Design</span>
+                              <span>
+                                  <i class="fa-solid fa-plus"></i>
+                              </span>
+                      </div>
+                      <div class="clear-fix"></div>
+                      <div class="complete homeComplete mt-3 text-center">
+                          <a href="testSolution.html">حل اختبار </a>
+                      </div>
+                  </div>
+                  <div class="privacy text-center">
+                      <a href="terms$conditions.html" class="ms-2">الشروط والاحكام</a>
+                      <a href="privacyPolicy.html">سياسة الخصوصية</a>
+                      <br>
+                      <a href="contactUs.html">تواصل معنا</a>
+                  </div>
+                  <div class="copyRight text-center">
+                      <span>Copyright @ Jopruit 2023</span>
+                      <img src="images/logoooooo.png" alt="">
+                  </div>
+              </div>
+              <div class="col-lg-10">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                              <div class="jobInfo ">
+                                  <div class="row">
+                                      <div class="col-md-2 mb-3">
+                                          <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                      </div>
+                                      <div class="col-md-10 d-flex justify-content-between mb-3">
+                                          <div class="jobTitle">
+                                              <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                              <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                          </div>
+                                          <div class="shareIcon d-flex position-relative">
+                                              <i id="shareIcon" onclick="openShareIcon(id)" class="fa-solid fa-share-nodes ms-2 mt-2 ahmed"></i>
+                                              <span class="work d-flex justify-content-center align-items-center">دوام كامل</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <p class="">مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                              <div class="jobDetails">
+                                  <div class="row">
+                                      <div class="col-md-10 ">
+                                          <span class="ms-2 mb-2">Adobe XD</span>
+                                          <span class="ms-2 mb-2">Figma</span>
+                                          <span class="ms-2 mb-2">UI Design</span>
+                                          <span class="ms-2 mb-2">UI/UX</span>
+                                       </div>
+                                      <div class="col-md-2 mt-3 mt-md-0 me-auto ms-2 jobIcon d-flex align-items-center justify-content-center">
+                                          <i id="homeComplete1" onclick="changeSaveIcon(id)" class="fa-regular fa-bookmark"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div id="shareIcon10" class="socialIcon ahmed iicon px-3 py-2 position-absolute text-center d-none">
+                                  <div class="d-flex justify-content-between">
+                                      <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                      <i id="shareIcon1" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                  </div>
+                                  <i class="fa-brands fa-square-facebook "></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+                                  <i class="fa-brands fa-square-whatsapp"></i>
+                                  <i class="fa-brands fa-facebook-messenger"></i>
+                                  <div class="copyInput d-flex my-2">
+                                      <button class="btn copyButton">نسخ</button>
+                                      <input type="text" class="">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                              <div class="jobInfo ">
+                                  <div class="row">
+                                      <div class="col-md-2 mb-3">
+                                          <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                      </div>
+                                      <div class="col-md-10 d-flex justify-content-between mb-3">
+                                          <div class="jobTitle">
+                                              <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                              <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                          </div>
+                                          <div class="shareIcon d-flex position-relative">
+                                              <i id="shareIcon1" onclick="openShareIcon(id)" class="fa-solid fa-share-nodes ms-2 mt-2"></i>
+                                              <span class="work d-flex justify-content-center align-items-center">دوام كامل</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <p class="">مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                              <div class="jobDetails">
+                                  <div class="row">
+                                      <div class="col-md-10 ">
+                                          <span class="ms-2">Adobe XD</span>
+                                          <span class="ms-2">Figma</span>
+                                          <span class="ms-2">UI Design</span>
+                                          <span class="ms-2">UI/UX</span>
+                                  </div>
+                                      <div class="col-md-2 mt-3 mt-md-0 me-auto ms-2 jobIcon d-flex align-items-center justify-content-center">
+                                          <i id="homeComplete2" onclick="changeSaveIcon(id)" class="fa-regular fa-bookmark"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div id="shareIcon110" class="socialIcon iicon px-3 py-2 position-absolute text-center d-none">
+                                  <div class="d-flex justify-content-between">
+                                      <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                      <i id="shareIcon11" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                  </div>
+                                  <i class="fa-brands fa-square-facebook "></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+                                  <i class="fa-brands fa-square-whatsapp"></i>
+                                  <i class="fa-brands fa-facebook-messenger"></i>
+                                  <div class="copyInput d-flex my-2">
+                                      <button class="btn copyButton">نسخ</button>
+                                      <input type="text" class="">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                              <div class="jobInfo ">
+                                  <div class="row">
+                                      <div class="col-md-2 mb-3">
+                                          <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                      </div>
+                                      <div class="col-md-10 d-flex justify-content-between mb-3">
+                                          <div class="jobTitle">
+                                              <h5  class="fw-bold">Senior UI/UX Designer</h5>
+                                              <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                          </div>
+                                          <div class="shareIcon d-flex position-relative">
+                                              <i id="shareIcon2" onclick="openShareIcon(id)" class="fa-solid fa-share-nodes ms-2 mt-2"></i>
+                                              <span class="work d-flex justify-content-center align-items-center">دوام كامل</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <p class="">مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                              <div class="jobDetails">
+                                  <div class="row">
+                                      <div class="col-md-10 ">
+                                          <span class="ms-2">Adobe XD</span>
+                                          <span class="ms-2">Figma</span>
+                                          <span class="ms-2">UI Design</span>
+                                          <span class="ms-2">UI/UX</span>
+                                  </div>
+                                      <div class="col-md-2 mt-3 mt-md-0 me-auto ms-2 jobIcon d-flex align-items-center justify-content-center">
+                                          <i id="homeComplete3" onclick="changeSaveIcon(id)" class="fa-regular fa-bookmark"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div id="shareIcon210" class="socialIcon iicon px-3 py-2 position-absolute text-center d-none">
+                                  <div class="d-flex justify-content-between">
+                                      <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                      <i id="shareIcon21" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                  </div>                                    <i class="fa-brands fa-square-facebook "></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+                                  <i class="fa-brands fa-square-whatsapp"></i>
+                                  <i class="fa-brands fa-facebook-messenger"></i>
+                                  <div class="copyInput d-flex my-2">
+                                      <button class="btn copyButton">نسخ</button>
+                                      <input type="text" class="">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                              <div class="jobInfo ">
+                                  <div class="row">
+                                      <div class="col-md-2 mb-3">
+                                          <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                      </div>
+                                      <div class="col-md-10 d-flex justify-content-between mb-3">
+                                          <div class="jobTitle">
+                                              <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                              <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                          </div>
+                                          <div class="shareIcon d-flex position-relative">
+                                              <i id="shareIcon3" onclick="openShareIcon(id)" class="fa-solid fa-share-nodes ms-2 mt-2"></i>
+                                              <span class="work d-flex justify-content-center align-items-center">دوام كامل</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <p class="">مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                              <div class="jobDetails">
+                                  <div class="row">
+                                      <div class="col-md-10 ">
+                                          <span class="ms-2">Adobe XD</span>
+                                          <span class="ms-2">Figma</span>
+                                          <span class="ms-2">UI Design</span>
+                                          <span class="ms-2">UI/UX</span>
+                                  </div>
+                                      <div class="col-md-2 mt-3 mt-md-0 me-auto ms-2 jobIcon d-flex align-items-center justify-content-center">
+                                          <i id="homeComplete4" onclick="changeSaveIcon(id)" class="fa-regular fa-bookmark"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div id="shareIcon310" class="socialIcon iicon px-3 py-2 position-absolute text-center d-none">
+                                  <div class="d-flex justify-content-between">
+                                      <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                      <i id="shareIcon31" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                  </div>                                      <i class="fa-brands fa-square-facebook "></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+                                  <i class="fa-brands fa-square-whatsapp"></i>
+                                  <i class="fa-brands fa-facebook-messenger"></i>
+                                  <div class="copyInput d-flex my-2">
+                                      <button class="btn copyButton">نسخ</button>
+                                      <input type="text" class="">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="jobCard bg-white py-4 px-3 mb-3 position-relative">
+                              <div class="jobInfo ">
+                                  <div class="row">
+                                      <div class="col-md-2 mb-3">
+                                          <img src="images/257270694_4514356318684120_2195962635714332997_n.png" alt="">
+                                      </div>
+                                      <div class="col-md-10 d-flex justify-content-between mb-3">
+                                          <div class="jobTitle">
+                                              <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                              <span class="specialParagraph">ABG Company, طنطا الغربية</span>
+                                          </div>
+                                          <div class="shareIcon d-flex position-relative">
+                                              <i id="shareIcon4" onclick="openShareIcon(id)" class="fa-solid fa-share-nodes ms-2 mt-2 ahmed"></i>
+                                              <span class="work d-flex justify-content-center align-items-center">دوام كامل</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <h6 class="fw-bold my-2">تفاصيل الوظيفة</h6>
+                              <p > مطلوب مصمم واجهات المستخدم وتجرية المستخدم علي خبرة 3 سنوات او اكثر يفضل خريج علوم الحاسب لتصميم الموبايل ابلكيشن ويب سايت خاصة بالشركة</p>
+                              <p>وسيكون مسئول علي :</p>
+                              <ul class="px-0">
+                                  <li>- إنشاء تصميمات من خلال فهم متطلبات العميل وتعليقات العملاء ونتائج قابلية الاستخدام</li>
+                                  <li>- نشاء تدفقات للمستخدم وإطارات سلكية ونماذج أولية بالاحجام الطبيعية منخفضة وعالية الدقة</li>
+                                  <li>- إجراء تحليل المقاييس بعد الإطلاق لإبلاغ جهود تحسين التصميم وتجربة المستخدم</li>
+                              </ul>
+                              <h6 class="fw-bold my-2">المؤهلات</h6>
+                              <ul class="px-0">
+                                  <li>خبرة واسعة في تصميم UI و UX ، خاصة لتطبيقات الهاتف المحمول</li>
+                                  <li>معرفة الخبراء بـ Figma و Photoshop و Illustrator</li>
+                                  <li>خبرة في تصميم الواجهات باللغتين العربية والإنجليزية</li>
+                                  <li>الخبرة المالية السابقة ميزة إضافية</li>
+                                  <li>الخبرة في البحث والاختبار المستخدم أمر لا بد منه</li>
+                                  <li>إجادة اللغة الإنجليزية</li>
+                              </ul>
+                              <h6 class="fw-bold mt-3">المستوي الوظيفي</h6>
+                              <div class="jobType"> 
+                              <span class="ms-4">عدد سنوات الخبرة : 0-3 </span>
+                              <span class="ms-4">المستوي : مبتدئ</span>
+                              </div>
+                              <div class="jobType">
+                                  <h6 class="fw-bold mt-3">نوع العمل</h6>
+                                  <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                  <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                              </div>
+                              <h6 class="fw-bold mt-3">المهارات المطلوبة</h6>
+                              <div class="jobDetails py-2">
+                                  <span class="ms-2 mb-2">UI/UX</span>
+                                  <span class="ms-2 mb-2">UI Design</span>
+                                  <span class="ms-2 mb-2">Figma</span>
+                                  <span class="ms-2 mb-2">Adobe XD</span>
+                                  <div class="clear-fix"></div>
+                              </div>
+                              <div class="jobApply my-2">
+                                      <div class="row">
+                                              <div class="col-10">
+                                                  <a id="applyJob" onclick="showApplyJob(id)" class="btn submit py-2 w-100">تقديم علي الوظيفة</a>
+                                              </div>
+                                              <div class="col-2 me-auto ms-0 ms-md-3 jobIcon jobIcon2  d-flex align-items-center justify-content-center">
+                                                  <i id="homeComplete5" onclick="changeSaveIcon(id)" class="fa-regular fa-bookmark"></i>
+                                              </div>
+                                      </div>
+                              </div>
+                              <div id="shareIcon410" class="socialIcon socialIconLeft iicon px-3 py-2 position-absolute text-center d-none">
+                                  <div class="d-flex justify-content-between">
+                                      <p class="text-end fw-bold mb-2">مشاركة عبر</p>
+                                      <i id="shareIcon41" onclick="closeSocialIcon(id)" class="fa-solid fa-xmark"></i>
+                                  </div>
+                                  <i class="fa-brands fa-square-facebook "></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+                                  <i class="fa-brands fa-square-whatsapp"></i>
+                                  <i class="fa-brands fa-facebook-messenger"></i>
+                                  <div class="copyInput d-flex my-2">
+                                      <button class="btn copyButton">نسخ</button>
+                                      <input type="text" class="">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="d-none infoorm" id="applyJob1">
+    <div class="payment position-absolute top-0 end-0 start-0 bottom-0 px-5 d-flex justify-content-center align-items-center">
+        <div class="paymentWaysss w-75 px-0 px-lg-5 py-4">
+            <div class="py-2 px-4 bg-white m-auto">
+                <form action="">
+                    <div class="row">
+                        <div class="text-start">
+                            <i id="applyJob" onclick="showTeaaam(id)" class="fa-solid fa-xmark teaaaaaaaaaaaaaaaaamIcon"></i>
+                        </div>
+                        <!-- ---------------------New Addition----------------- -->
+                        <div class="col-lg-12 changeValue">
+                            <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   نبذة عنك
+                                <div class="requiredAsterisk">
+                                    <i class="fa-solid fa-asterisk"></i>
+                                </div>
+                            </label>
+                            <div class="inputs  py-2 px-2">
+                                <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. .</textarea>
+                              </div>
+                        </div>
+                        <div class="col-lg-12 changeValue">
+                            <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   ما الذي يجعلك مناسبا للوظيفة؟
+                                <div class="requiredAsterisk">
+                                    <i class="fa-solid fa-asterisk"></i>
+                                </div>
+                            </label>
+                            <div class="inputs  py-2 px-2">
+                                <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">Specializes in creating clean, artful designs that are both intuitive and functional</textarea>
+                              </div>
+                        </div>
+                        <div class="col-lg-12 changeValue">
+                            <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">  ما هي توقعات راتبك؟
+                                <div class="requiredAsterisk">
+                                    <i class="fa-solid fa-asterisk"></i>
+                                </div>
+                            </label>
+                            <div class="inputs applicantInputs py-2 px-2">
+                                <input id="companyEmail" name="companyEmail" class="border-0" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-lg-12 changeValue">
+                            <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">  ما الذي يجعلك المرشح المثالي لهذا المنصب؟
+                                <div class="requiredAsterisk">
+                                    <i class="fa-solid fa-asterisk"></i>
+                                </div>
+                            </label>
+                            <div class="inputs  py-2 px-2">
+                                <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">Specializes in creating clean, artful designs that are both intuitive and functional</textarea>
+                              </div>
+                        </div>
+                        <div class="col-lg-12 changeValue">
+                            <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   إذا عرضنا عليك منصبًا ، فمتى ستكون متاحًا للبدء؟
+                                <div class="requiredAsterisk">
+                                    <i class="fa-solid fa-asterisk"></i>
+                                </div>
+                            </label>
+                            <div class="inputs py-2 px-2">
+                                <input id="companyEmail" name="companyEmail" class="border-0" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-4 mt-1">
+                            <button id="applyJo" onclick="showOkessage(id)" class="homeSend form-control btn border-0 text-white">ارسال</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="okkkkkkkk d-none" id="applyJob11">
+    <div class="payment position-absolute top-0 end-0 start-0 bottom-0  d-flex justify-content-center align-items-center">
+        <div class="paymentWaysss px-0 px-lg-5 py-4">
+            <div class="py-3 bg-white w-75 m-auto">
+                <form action="">
+                    <div class="row text-center">
+                        <img src="images/Ok-amico.png" class="m-auto" alt="">
+                        <p> تم ارسال الدعوة بنجاح !</p>
+                        <span>تم ارسال الدعوة الي ياسين خالد بنجاح ونحن في انتظار الرد منه</span>
+                        <div id="applyJob1" onclick="showTeaaam(id)" class="d-flex justify-content-end align-items-center">
+                                <p class="teaaaaaaaaaaaaaaaaamIconparagraph mb-0">عودة</p>
+                                <i class="fa-solid fa-caret-left teaaaaaaaaaaaaaaaaamIcon teaaaaaaaaaaaaaaaaamIconBack ms-3 me-2"></i>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

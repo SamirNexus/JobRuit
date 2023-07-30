@@ -1,0 +1,321 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar bg-white navbar-expand-lg py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="homeAfterComplete.html">الوظائف</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="appliedList.html">المقدم عليها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="corporate.html">الشركات</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item mx-3 mx-lg-0">
+                        <a class="nav-link" href="savedList.html">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-0 ">
+                        <a class="nav-link" href="favList.html">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="completeData pt-5">
+        <div class="container-fluid pe-5 pt-5">
+            <div class="row">
+                <div class="col-lg-2 px-lg-0 mb-4 pt-4">
+                    <div class="person text-center bg-white py-4">
+                        <div class="detailsImage m-auto">
+                            <img id="newImageSrc2" src="images/149071.png" class="w-100 rounded-circle" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Yassin Khaled</h5>
+                        <span class="specialParagraph">Job title</span>
+                        <ul class="px-0 text-end py-3 px-3 text-center">
+                            <a href="completeData.html">
+                                <li class="fw-bold my-3 py-2">المعلومات العامة</li>
+                            </a>
+                            <a href="personalData.html">
+                                <li class="fw-bold my-3 py-2">المعلومات الشخصية</li>
+                            </a>
+                            <a href="techicalInfo.html">
+                                <li class="fw-bold my-3 py-2">معلومات الوظيفية</li>
+                            </a>
+                            <a href="resume.html">
+                                <li class="fw-bold my-3 activeLink py-2">السيرة الذاتية</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 py-4 morePadding">
+                    <div class="personInfo py-2 px-4 bg-white">
+                            <form action="homeAfterComplete.html" class="pt-4">
+                                <fieldset class="border border-1 p-4 position-relative">
+                                    <legend class="position-absolute px-2">نماذج السيرة الذاتية</legend>
+                                    <div class="row pt-3">
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate1.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo1.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate1-2.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo2.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate1-3.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo3.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate1-4.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo4.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate2.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo12.jpg" class="w-100" alt=""> 
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate2-1.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo13.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate2-2.html">
+                                                <div class="mb-4 position-relative">
+                                                    <img src="images/logo14.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate2-3.html">
+                                                <div class="mb-3 position-relative">
+                                                    <img src="images/logo15.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                        <div class="px-2">
+                                            <a href="resumeTemplate3.html">
+                                                <div class="mb-3 position-relative">
+                                                    <img src="images/vvv.jpg" class="w-100" alt="">
+                                                    <div class="templateHover align-items-end d-flex justify-content-center position-absolute top-0 end-0 start-0 bottom-0">
+                                                        <span class="py-2 text-white">استخدم مجانا</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

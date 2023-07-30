@@ -1,0 +1,718 @@
+:root{
+    --color-white:#FFFFFF;
+    --color-gray1:#F5F5F5;
+    --color-gray2:#E4E4E4;
+    --color-gray3:#959595;
+    --color-gray4:#707070;
+    --color-gray5:#00000029;
+    --color-black:#000000;
+    --color-blue1:#0173B71A;
+    --color-blue2:#149FBD;
+    --color-blue3:#243C97;
+    --background-color:#F5F5F5;
+    --cairo-font:'Cairo', sans-serif;
+    --montserrat-font:'Montserrat', sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+body{
+    font-family: var(--cairo-font);
+    background-color: var(--color-gray1);
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: var(--color-blue3);
+    border-bottom: 2px solid var(--color-blue3);
+}
+.nav-link1{
+    color: var(--color-blue3);
+}
+.navbar{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.nav-link2{
+    color: var(--color-white);
+    background-color: var(--color-blue3);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+.nav-link2:hover{
+    color: var(--color-white);
+}
+.phonePrefix{
+    border: 1px solid red;
+}
+.submit{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.signin a{
+    text-decoration: none;
+    color: var(--color-blue3);
+}
+.signin p{
+    font-size: 18px;
+}
+.special{
+    color: var(--color-blue3);
+    text-decoration: none;
+}
+.special:hover{
+    color: var(--color-blue3);
+}
+.submit:hover{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+form h1 , .createAccount h1{
+    color: var(--color-blue3);
+    font-size: 36px;
+}
+label{
+    font-size: 18px;
+}
+.policies{
+    font-size: 18px;
+}
+.otp input{
+    width: 80px;
+    height: 50px;
+    background-color: #F9F9F9;
+    border: 0;
+    border-radius: 5px;
+}
+.count{
+    color: var(--color-blue2);
+}
+.resend{
+    color: var(--color-black);
+   
+}
+.resend:hover{
+    color: var(--color-black);
+}
+.layers{
+    background-color: #000000B3;
+}
+.layer1{
+    background-color: var(--color-white);
+}
+.layer h3{
+    color: #0173B7;
+}
+.layer .btn1{
+    background-color: #0173B7;
+}
+.passSuccess{
+    color: #707070;
+    font-size: 14px;
+}
+.background1{
+    background-color:#000000B3 ;
+}
+.background2{
+    background-color: var(--color-white);
+    border-radius: 5px;
+}
+.background3{
+    background-color: var(--color-gray1);
+}
+.info{
+    background-color: var(--color-white);
+}
+.inputs{
+    background-color: #F9F9F9;
+    border-radius: 5px;
+}
+.inputs2{
+    padding-left: 12px;
+}
+.jobIcon .fa-solid{
+    color: var(--color-blue3);
+}
+.togglePass{
+    cursor: pointer;
+}
+.inputs i{
+    color: #A1A1A1;
+}
+.inputs input{
+    background-color: #F9F9F9;
+    width: 75%;
+}
+.inputs .resetPass2{
+    width: 88%;
+}
+input:focus , select:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #A1A1A1;
+}
+select{
+    background-color: #F9F9F9;
+    border-color: #E4E4E4;
+}
+.formRow{
+    width: 50%;
+}
+.closeIcon{
+    top: 20px;
+    right: -250px;
+}
+.closeIcon i{
+    font-size: 20px;
+    color: #707070;
+}
+.done{
+    color: var(--color-blue3);
+}
+.searchButton{
+    background-color: var(--color-blue3);
+    color: white;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.searchButton:hover{
+    background-color: var(--color-blue3);
+    color: white;
+}
+.searchButton:focus{
+    outline: none;
+}
+.searchUl{
+    width: 40%;
+}
+.searchInput{
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.homeAfterLog{
+    background-color: #F5F5F5;
+}
+.homeAfterLog .person{
+    border-radius: 10px;
+}
+.specialParagraph{
+    color: #149FBD;
+    font-weight: bold;
+    font-size: 14px;
+}
+.homeAfterLog p{
+    color: var(--color-gray3);
+    font-size: 12px;
+}
+.homeAfterLog .person .complete a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.homeAfterLog .person .complete{
+    background-color: #F3F3F4;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+.homeAfterLog .work{
+    color: var(--color-blue2);
+    background-color: #149FBD1A;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.jobDetails span{
+    font-size: 13px;
+    background-color: var(--color-gray1);
+    color: var(--color-gray4);
+    padding: 8px 10px;
+    border-radius: 5px;
+    float: right;
+    transition: all 0.3s;
+}
+.jobCard ul li{
+    list-style-type: none;
+    color: var(--color-gray4);
+    font-size: 12px;
+    margin: 10px 0;
+}
+.homeAfterLog .jobCard{
+    border-radius: 10px;
+}
+.jobCard img{
+    width: 70px;
+    height: 70px;
+}
+.jobTitle h5{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.jobTitle span{
+    font-size: 10px;
+}
+.shareIcon i{
+    color: var(--color-blue2);
+    cursor: pointer;
+}
+.socialIcon{
+    top: 25%;
+    left: 22%;
+}
+.socialIconLeft{
+    top: 8%;
+    left: 22%;
+}
+.imageCard img{
+    border: 2px solid #E4E4E4;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+.copyButton{
+    background-color: var(--color-blue3);
+    color: white;
+    border-radius: 0;
+    margin: 0;
+}
+.copyButton:hover{
+    background-color: var(--color-blue3);
+    color: white;
+}
+.copyButton:focus{
+    background-color: var(--color-blue3);
+    color: white;
+}
+.jobCard .socialIcon{
+   background-color: var(--color-gray1);
+}
+.socialIcon i{
+    font-size: 22px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+.socialIcon .fa-square-facebook{
+    color: #3A559F;
+}
+.socialIcon .fa-square-twitter{
+    color: #50ABF1;
+}
+.socialIcon .fa-square-whatsapp{
+    color: #79E78F;
+}
+.sideBar{
+    position: fixed;
+}
+.socialIcon .fa-facebook-messenger{
+    color: #2196F3;
+}
+.copyInput input{
+    padding: 6px 0;
+    border: 0;
+    background-color: var(--color-gray2);
+}
+.jobIcon{
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--color-gray2);
+    border-radius: 10px;
+    color: var(--color-gray4);
+}
+.jobIcon i{
+    cursor: pointer;
+}
+.jobIcon2{
+    height: 42px;
+    width: 42px;
+}
+.jobRequire h5{
+   font-size: 18px;
+}
+.jobRequire ul li{
+    list-style-type: none;
+    font-size: 14px;
+    color: var(--color-gray4);
+}
+.complete1{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-blue3);
+    display: block;
+    margin: 10px;
+    padding: 8px 0 ;
+    border-radius: 10px;
+}
+.complete1:hover{
+    color: var(--color-white);
+}
+.complete2{
+    text-decoration: none;
+    color: var(--color-black);
+    background-color:#F3F3F4;
+    display: block;
+    margin: 10px;
+    padding: 8px 0 ;
+    border-radius: 10px;
+}
+.complete2:hover{
+    color: var(--color-black);
+}
+#carouselExampleCaptions .carouselImage{
+    background-image: url("../images/photo_2022-12-09_16-57-27.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+}
+#carouselExampleCaptions .carouselContent{
+    background-color: #243C97BF;
+    height: 100%;
+}
+.carouselContent h4{
+    font-size: 55px;
+}
+.carouselContent p{
+    font-size: 23px;
+    color: var(--color-gray1);
+}
+.carouselContent a{
+    text-decoration: none;
+    background-color: var(--color-white);
+    font-size: 20px;
+    color: var(--color-blue3);
+    width: 350px;
+    height: 50px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.carouselContent a:hover{
+    transform: scale(1.01,1.01);
+}
+.carousel-indicators{
+    margin-bottom: 3.5rem;
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    background-color: #C5C5C5;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    width: 37px;
+    height: 13px;
+    border-radius: 15px;
+}
+
+.completeData{
+    background-color: var(--background-color);
+}
+.completeData ul li{
+    list-style-type: none;
+}
+.completeData .activeLink{
+    background-color: #0173B70D;
+}
+.completeData .saveInfo{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+    width: 50%;
+}
+fieldset legend{
+   top: -15px;
+   background-color: var(--color-white);
+   width: auto;
+}
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+.plusMore{
+    width: 40px;
+    height: 40px;
+    background-color: #149FBD; 
+    /* position: absolute;
+    bottom: 20px;
+    left: 50px; */
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.plusMore i{
+    font-size: 22px;
+    color: var(--color-white);
+}
+.plusMore2{
+    width: 170px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #149FBD;
+    color: #149FBD;
+}
+.completeData ul a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+/* .userImage .userImageBorder{
+    left: 22%;
+    width: 55%;
+} */
+/* .userImage .userPhoto{
+    width: 55%;
+} */
+.activeButton{
+    width: 70px;
+    height: 25px;
+    border: 2px solid var(--color-gray2);
+    box-shadow:0px 0px 5px 0px var(--color-gray2) inset;
+    cursor: pointer;
+}
+.activeButton1{
+    width: 15px;
+    height: 25px;
+    border: 2px solid var(--color-gray2);
+    box-shadow:0px 0px 10px 0px var(--color-gray2);
+    left: -1px;
+    top: -2px;
+}
+.activeButton1:hover{
+    border: 2px solid var(--color-gray2);
+}
+.availableSpan{
+    font-size: 12px;
+    color: var(--color-gray4);
+    margin: 5px 0 0 0 ;
+}
+.homeAfterLog .specialColor{
+    color: #149FBD;
+}
+.userSkills span{
+    background-color: #149FBD1A;
+    float: right;
+    margin: 5px;
+    padding: 5px 7px;
+    font-size: 12px;
+}
+.clear-fix{
+    clear: both;
+}
+.userSkills span {
+    cursor: pointer;
+}
+.homeAfterLog .person .homeComplete{
+    background-color: var(--color-blue3);
+}
+.homeAfterLog .person .homeComplete a{
+    color: var(--color-white);
+}
+.specialGender input{
+    width: 55%;
+}
+.profile input{
+    color: var(--color-blue2);
+}
+.editProfile{
+    width: 50px;
+    height: 50px;
+    background-color:#149FBD1A;
+}
+.editProfile i{
+    color: var(--color-blue2);
+    font-size: 22px;
+}
+.skillDate{
+    color: var(--color-gray4);
+}
+.homeAfterLog .jobCardBorder{
+    border-radius: 0;
+}
+.jobCardBorder{
+    border-bottom: 1px solid #E4E4E4;
+    margin: 0 10px;
+}
+.jobInfo2 span{
+    margin: 5px;
+    background-color: #149FBD1A;
+    padding:3px 8px;
+    border-radius: 5px;
+    float: right;
+    color: #149FBD;
+}
+
+.selectdiv {
+    position: relative;
+  }
+  
+  select::-ms-expand {
+       display: none;
+  }
+  
+  .selectdiv:after {
+    content: '<';
+    font: 18px "Consolas", monospace;
+    font-weight: bold;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+.selectEdit{
+    padding: 0 0 0 12px;
+}
+.selectEdit2{
+    padding-right: 0;
+}
+.selectEdit3{
+    padding: 0 0 0 24px;
+}
+select::-ms-expand {
+    display: none;
+}
+.uploadResume{
+    width: 300px;
+    height: 30px;
+    background-color:#F3F3F4 ;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.birthdayuser{
+    padding:4px 0 0 0;
+}
+.test1 i{
+    color: var(--color-blue2);
+}
+/*************************** New Addition****************************/
+/* #userImage{
+    width: 200px;
+    height: 200px;
+} */
+.requiredAsterisk i{
+    color: red;
+    font-size: 10px;
+    padding-right: 5px;
+}
+.requiredAsterisk1 i{
+    padding-right: 5;
+    padding-top: 5px;
+}
+.closeIcon{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+.closeIcon i{
+    font-size: 22px;
+    color: var(--color-white);
+    font-weight: bold;
+}
+.nav-link2:focus{
+    color: white;
+}
+@media screen and (max-width:992px) {
+    .inputs input{
+        width: 85%;
+    }
+    .formRow{
+        width: 75%;
+    }
+    .searchUl{
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px){
+    .formRow{
+        width: 70%;
+    }
+    .inputs #phone{
+        width: 60%;
+    }
+    .formRow h1{
+        font-size: 28px;
+    }
+    .otp input{
+        width: 60px;
+        height: 50px;
+    }
+    .forgetInputOtp input{
+        height: 70px;
+    }
+    .inputs input{
+        width: 90%;
+    }
+    .inputs .resetPass{
+        width: 79%;
+    }
+  label{
+    font-size: 16px;
+  }
+  .policies{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:767px){
+    #carouselExampleCaptions .carouselImage{
+        height: 100vh;
+    }
+    #carouselExampleCaptions .carouselContent{
+        height: 100vh;
+    }
+    .carousel-indicators{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formRow{
+        width: 85%;
+    }
+    .formRow h1{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:375px) {
+    .formRow{
+        width: 100%;
+    }
+    .jobDetails .jobSpan{
+        margin: 0 2px;
+    }
+}

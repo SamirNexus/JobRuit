@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>JobRuit</title>
+    </head>
+    <body dir="rtl" class="bg-white">
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 px-0 vh-100">
+                <div class="accountCarousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="carouselImage">
+                                <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                    <h4 class="pb-4">سجل الآن</h4>
+                                    <p>مرحباً بك مره ثانية! 
+                                        <br>  نتمني ان تجد فرصتك معنا او تكون وجدتها بالفعل</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                                <div class="carouselImage">
+                                    <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                        <h4 class="pb-4">سجل الآن</h4>
+                                        <p>مرحباً بك مره ثانية! 
+                                            <br>  نتمني ان تجد فرصتك معنا او تكون وجدتها بالفعل</p>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="carousel-item">
+                                <div class="carouselImage">
+                                    <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                        <h4 class="pb-4">سجل الآن</h4>
+                                        <p>مرحباً بك مره ثانية! 
+                                            <br>  نتمني ان تجد فرصتك معنا او تكون وجدتها بالفعل</p>
+                                    </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-5 pt-3 vh-100">
+                <div class="createAccount">
+                  <div class="text-center">
+                      <img src="images/Group 18459.png" class="w-25" alt="">
+                  </div>
+                  <form action="homeAfterLog.html" class="pt-3">
+                      <div class="container">
+                          <div class="row">
+                            <div class="col-lg-12 py-2">
+                                <label for="email" class="py-2 fw-bold">الايميل</label>
+                                <br>
+                                <div class="inputs py-2 px-2">
+                                    <i class="fa-regular fa-envelope ps-1"></i>
+                                    <input id="email" name="userEmail" class="border-0" type="email" placeholder="اكتب الايميل الخاص بك">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <label for="password" class="py-2 fw-bold">كلمة المرور</label>
+                                <br>
+                                <div class="inputs py-2 px-2">
+                                    <i class="fa-solid fa-lock ps-1"></i>
+                                    <input id="password" name="userPassword" class="border-0 resetPass resetPass2" type="password" placeholder="اكتب كلمة المرور">
+                                    <i class="fa-regular fa-eye togglePass" onclick="togglePassword3()"></i>
+                                </div>
+                            </div>
+                            <div class="py-3">
+                                <a href="forgetPassword.html" class="special fw-bold">هل نسيت كلمة المرور؟</a>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn form-control submit my-2">تسجيل</button>
+                            </div>
+                            <div class="col-12 text-center signin py-2">
+                                <p class="fw-bold">ليس لديك حساب؟ <a href="createAccount.html">إنشاء حساب </a></p>
+                            </div>
+                          </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+        </div>
+       </div>    
+       
+       <script src="js/jquery-3.6.1.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/index.js"></script>
+    </body>
+</html>

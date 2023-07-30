@@ -1,0 +1,625 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black " aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder="ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="homeAfterLog py-5">
+        <div class="container-fluid pt-4 mt-5">
+            <div class="row px-3 px-lg-5">
+                <div class="col-lg-2 px-0 mb-4">
+                    <div class="person text-center bg-white py-4 px-3 mb-3">
+                        <div class="userImage position-relative m-auto">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                            <img id="userImageBorder" class="position-absolute userImageBorder d-none" src="images/Group 18474.png" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">ABG Egypt</h5>
+                        <span class="specialParagraph">Gold plan-1 year access</span>
+                        <div class="availablePlane d-flex justify-content-center align-items-center my-2 m-auto">
+                            <span>خطة نشطة</span>
+                        </div>
+                        <p class="text-center mb-0 mt-2">WE TAKE YOUR BRAND TO THE NEXT LEVEL</p>
+                        <div class="complete mt-2">
+                            <a href="completeCorporateData.html">تعديل البيانات</a>
+                        </div>
+                    </div>
+                    <div class="person availplane bg-white py-4 px-3">
+                        <h5 class="mt-2 fw-bold">تفاصيل الاستهلاك</h5>
+                        <div class="corporatePercentage">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>السير الذاتية غير المقفلة</span>
+                                <span>99\300</span>
+                            </div>
+                            <div class="complete completePercentage">
+                                <div class="completePercentage1 text-start ps-4">
+                                    <a class="text-white" href="">31%</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="corporatePercentage mt-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>الوظائف</span>
+                                <span>3\36</span>
+                            </div>
+                            <div class="complete completePercentage ">
+                                <div class="completePercentage1 corporatePercentage10 text-start ps-2">
+                                    <a class="text-white" href="">9%</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="complete homeComplete availplane1 mt-3 text-center">
+                            <a href="1monthplan.html">قم بترقية خطتك</a>
+                        </div>
+                    </div>
+                    <div class="privacy text-center">
+                        <a href="terms$conditions.html" class="ms-2">الشروط والاحكام</a>
+                        <a href="privacyPolicy.html">سياسة الخصوصية</a>
+                        <br>
+                        <a href="contactUs.html">تواصل معنا</a>
+                    </div>
+                    <div class="copyRight text-center">
+                        <span>Copyright @ Jopruit 2023</span>
+                        <img src="images/logoooooo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="company">
+                        <div class="row">
+                            <div class="corporateNavbar px-5"> 
+                                <div id="tap2-content"class="tapnone">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="company1 px-2 py-2">
+                                                    <div class="p-2">
+                                                        <div class="d-flex">
+                                                            <div class="personImage">
+                                                                <img src="images/149071.png" alt="">
+                                                            </div>
+                                                            <div class="d-flex me-3 mt-2 w-100 justify-content-between">
+                                                                <div>
+                                                                    <h6 class="fw-bold">ياسين خالد</h6>
+                                                                    <p>UI\UX Designer</p>
+                                                                </div>
+                                                                <div class="specialsspan">
+                                                                    <span>تم التقديم منذ 5 ايام</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="availbalejoob d-flex justify-content-end align-items-center my-2">
+                                                            <span id="applyJob" onclick="showApplyJob(id)" class="answerQues">تم الإجابة علي 4 سؤال</span>
+                                                            <div class="selectdiv selectdivApplicant pb-3 me-2 ms-2 pb-md-0">
+                                                                <select name="" id="" class="inputs selectOption selectOptionCorporate py-2 px-4 border-0">
+                                                                    <option disabled selected hidden>الحالة</option>
+                                                                    <option value="مؤهل">مؤهل</option>
+                                                                    <option value="قائمة الانتظار">قائمة الانتظار</option>
+                                                                    <option value="قائمة مرشحين">قائمة مرشحين</option>
+                                                                    <option value="غير مؤهل">غير مؤهل</option>
+                                                                </select> 
+                                                            </div> 
+                                                            <a href="jobSeekerProfile.html" class="px-3 py-2 border-0">عرض الملف</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="navbar-left bg-white px-4 py-3">
+                                                <h5 class="pb-2 mb-3"><i class="fa-solid fa-sliders ms-2"></i> التصنيف</h5>
+                                                <div class="header1">
+                                                    <div id="optionee" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                        <h6>العمر</h6>
+                                                        <i id="optioneeicon1" class="fa-solid fa-caret-up"></i>
+                                                    </div>
+                                                    <div id="optionee1" class="optione11">
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>دوام كامل</span>
+                                                            <i id="optioneIcons1" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>دوام جزئي</span>
+                                                            <i id="optioneIcons2" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>من المقر</span>
+                                                            <i id="optioneIcons3" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>عن بعد</span>
+                                                            <i id="optioneIcons4" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="header1 mt-3">
+                                                    <div id="optionee1" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                        <h6>الحد الادنى للراتب </h6>
+                                                        <i id="optionee1icon1" class="fa-solid fa-caret-up"></i>
+                                                    </div>
+                                                    <div id="optionee11" class="optione11">
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>كل الاوقات</span>
+                                                            <i id="optioneIcons5" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>اخر 24 ساعة</span>
+                                                            <i id="optioneIcons6" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>اخر اسبوع</span>
+                                                            <i id="optioneIcons7" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>اخر شهر</span>
+                                                            <i id="optioneIcons8" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="header1 mt-3">
+                                                    <div id="optionee2" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                        <h6>المحافظه</h6>
+                                                        <i id="optione2icon1" class="fa-solid fa-caret-up"></i>
+                                                    </div>
+                                                    <div id="optionee21" class="optione11">
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>القاهرة</span>
+                                                            <i id="optioneIcons9" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>الجيزة</span>
+                                                            <i id="optioneIcons10" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>المنوفيه</span>
+                                                            <i id="optioneIcons11" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                        <div class="optione1 d-flex justify-content-between mt-2">
+                                                            <span>الغربيه</span>
+                                                            <i id="optioneIcons12" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="d-none infoorm" id="applyJob1">
+        <div class="payment position-absolute top-0 end-0 start-0 bottom-0 px-5 d-flex justify-content-center align-items-center">
+            <div class="paymentWaysss w-75 px-0 px-lg-5 py-4">
+                <div class="pb-2 pt-3 px-4 bg-white m-auto">
+                    <form action="">
+                        <div class="row">
+                            <div class="text-start">
+                                <i id="applyJob" onclick="showTeaaam(id)" class="fa-solid fa-xmark teaaaaaaaaaaaaaaaaamIcon"></i>
+                            </div>
+                            <!-- ---------------------New Addition----------------- -->
+                            <div class="col-lg-12 changeValue py-1">
+                                <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   نبذة عنك
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs  py-2 px-2">
+                                    <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">UI Designer is competent at creating user-friendly interfaces with an easily navigable design. Translates high-level requirements into necessary interaction flows and artifacts. .</textarea>
+                                  </div>
+                            </div>
+                            <div class="col-lg-12 changeValue py-1">
+                                <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   ما الذي يجعلك مناسبا للوظيفة؟
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs  py-2 px-2">
+                                    <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">Specializes in creating clean, artful designs that are both intuitive and functional</textarea>
+                                  </div>
+                            </div>
+                            <div class="col-lg-12 changeValue py-1">
+                                <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">  ما هي توقعات راتبك؟
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs applicantInputs py-2 px-2">
+                                    <input id="companyEmail" name="companyEmail" class="border-0" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 changeValue py-1">
+                                <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">  ما الذي يجعلك المرشح المثالي لهذا المنصب؟
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs  py-2 px-2">
+                                    <textarea class="bg-transparent ahmedAhmed border-0 w-100" name="" placeholder="" id=""  rows="3">Specializes in creating clean, artful designs that are both intuitive and functional</textarea>
+                                  </div>
+                            </div>
+                            <div class="col-lg-12 changeValue py-1">
+                                <label for="companyEmail" class="py-2 fw-bold d-flex infoormLabel">   إذا عرضنا عليك منصبًا ، فمتى ستكون متاحًا للبدء؟
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs py-2 px-2">
+                                    <input id="companyEmail" name="companyEmail" class="border-0" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <!-- <div class="col-4 mt-2">
+                                <button id="applyJo" onclick="showOkessage(id)" class="homeSend form-control btn border-0 text-white">ارسال</button>
+                            </div> -->
+                        </div>
+                    </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

@@ -1,0 +1,509 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="homeAfterComplete.html">الوظائف</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="appliedList.html">المقدم عليها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="">الشركات</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder="عن أي شركة تبحث..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item mx-3 mx-lg-0">
+                        <a class="nav-link" href="savedList.html">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-lg-0 ">
+                        <a class="nav-link" href="favList.html">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="profile.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="homeAfterLog py-5">
+        <div class="container-fluid pt-5">
+            <div class="row px-3 px-lg-5 pt-4">
+                <div class="col-lg-2 px-0 mb-4">
+                    <div class="person text-center bg-white py-4 px-3 mb-3">
+                        <div class="userImage position-relative m-auto">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                            <img id="userImageBorder" class="position-absolute userImageBorder d-none" src="images/Group 18474.png" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">Yassin Khaled</h5>
+                        <span class="specialParagraph">UI/UX Designer</span>
+                        <p class="text-end mb-0 mt-2"> بياناتك مكتملة بنسبة %90</p>
+                        <div class="complete completePercentage">
+                            <div class="completePercentage1 text-start ps-4">
+                                <a class="text-white" href="">90%</a>
+                            </div>
+                        </div>
+                        <div class="complete mt-2">
+                            <a href="completeData.html">حدث بياناتك</a>
+                        </div>
+                    </div>
+                    <div class="person bg-white py-4 px-3">
+                        <h5 class="mt-2 fw-bold">التوفر</h5>
+                        <div class="row my-3">
+                            <div onclick="changePosition()" class="activeButton col-lg-5 position-relative rounded-pill">
+                                <button id="activeButton1" class="activeButton1 rounded-circle position-absolute btn"></button>
+                            </div>  
+                            <span id="availableSpan" class="availableSpan fw-bold col-lg-7">متاح للتوظيف؟</span>
+                        </div>
+                        <div id="selectdivHome" class="selectdiv selectdivHome my-2 d-none">
+                            <select name="" id="" class="inputs w-100 py-2 px-2 border-0">
+                                <option>مجال العمل</option>
+                                <option value="">مجال العمل</option>
+                                <option value="">مجال العمل</option>
+                                <option value="">مجال العمل</option>
+                                <option value="">مجال العمل</option>
+                                <option value="">مجال العمل</option>
+                            </select> 
+                        </div> 
+                        <h5 class="mt-3 fw-bold">الزيارات</h5>
+                        <p class="fw-bold specialColor">لديك 5 زيارات هذا الشهر</p>
+                        <h5 class="mt-3 fw-bold">المهارات</h5>
+                        <div class="userSkills">
+                                <span>Adobe XD</span>
+                                <span>UI Design</span>
+                                <span>Figma</span>
+                                <span>User research</span>
+                                <span>UI</span>
+                                <span>Product Design</span>
+                                <span>
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
+                        </div>
+                        <div class="clear-fix"></div>
+                        <div class="complete homeComplete mt-3 text-center">
+                            <a href="testSolution.html">حل اختبار </a>
+                        </div>
+                    </div>
+                    <div class="privacy text-center">
+                        <a href="" class="ms-2">الشروط والاحكام</a>
+                        <a href="">سياسة الخصوصية</a>
+                        <br>
+                        <a href="">تواصل معنا</a>
+                    </div>
+                    <div class="copyRight text-center">
+                        <span>Copyright @ Jopruit 2023</span>
+                        <img src="images/logoooooo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="company">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                   <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav11" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p class="mb-2">نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav21" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav31" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav41" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav51" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav61" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <h5 class="fw-bold">Noon</h5>
+                                                    <div>
+                                                        <i id="fav71" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <a href="corporateProfile.html"><h5 class="fw-bold">Noon</h5></a>
+                                                    <div>
+                                                        <i id="fav81" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <h5 class="fw-bold">Noon</h5>
+                                                    <div>
+                                                        <i id="fav91" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="company1">
+                                    <div class="row p-2">
+                                        <div class="col-md-4">
+                                            <div class="companyImage">
+                                                <img src="images/noon.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="companyDetails px-3 pt-3">
+                                                <div class="companyHeaders d-flex justify-content-between">
+                                                    <h5 class="fw-bold">Noon</h5>
+                                                    <div>
+                                                        <i id="fav101" onclick="changeFavorite(id)" class="fa-regular fa-heart"></i>
+                                                    </div>
+                                                </div>
+                                                <p>نون هي منصة تسوق إلكتروني محلية رائدة في الشرق الأوسط توفر للمستخدمين خيارات متعددة من المنتجات والفئات والماركات للتسوق عبر الإنترنت</p>
+                                                <div class="rank" dir="ltr">
+                                                    <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="corporateHomeAfterLog.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black " href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder=" ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img id="DinaAhmed" src="images/149071.png" class="rounded-circle" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-2 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="completeData completeCorporateData pt-5">
+        <div class="container-fluid pe-5 pt-5">
+            <div class="row">
+                <div class="col-lg-2 px-lg-0 mb-4 pt-4">
+                    <div class="person text-center bg-white position-fixed py-4">
+                        <div class="detailsImage detailsImage2 m-auto rounded-circle">
+                            <!-- -------------------------New Addition -------------->
+                            <img id="newImageSrc2" src="images/149071.png" class="rounded-circle" alt="">
+                        </div>
+                        <h5 class="mb-0 mt-2 fw-bold">ABG Egypt</h5>
+                        <ul class="px-0 text-end py-3 px-3 text-center">
+                            <a href="completeCorporateData.html">
+                                <li class="fw-bold my-3 activeLink px-5 py-2">معلومات الشركة</li>
+                            </a>
+                            <a href="aboutCompany.html">
+                                <li class="fw-bold my-3 px-5 py-2">حول الشركة</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 py-4 morePadding">
+                    <div class="personInfo py-4 px-4 bg-white">
+                        <form action="aboutCompany.html">
+                            <fieldset class="border border-1 p-4 position-relative">
+                                <legend class="position-absolute">المعلومات العامة</legend>
+                                <div class="mt-3">
+                                    <div class="completeImage completeImageViewComplete">
+                                        <label for="files" class="position-relative editPhoto2 rounded-circle">
+                                            <div class="position-relative rounded-circle overflow-hidden">
+                                                <img id="userImage" src="images/149071.png" class="bigUserImage rounded-circle" alt="">
+                                                <div class="layerPhoto layerPhotoView position-absolute d-flex justify-content-center align-items-center text-white">
+                                                    <p>تغيير الصورة</p>
+                                                </div>
+                                            </div>
+                                            <div class="editPhoto editPhotoComplete position-absolute">
+                                                <div class="bg-white rounded-circle p-1">
+                                                    <div class="editPhoto1 editPhoto1View editPhoto1ViewComplete d-flex align-items-center justify-content-center text-white">
+                                                        <i class="fa-solid fa-camera-retro"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <input onchange="changeImage(this)" id="files" class="d-none" type="file" accept="image/png, image/jpeg , image/jpg">
+                                        <p id="path" class="d-none"></p>
+                                        <p id="obPath" class="d-none"></p>
+                                    </div>
+                                </div>
+                                <div class="row pt-3">
+                                    <div class="col-lg-6 py-2">
+                                        <label for="companyName" class="py-2 fw-bold d-flex">اسم الشركة
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="inputs py-2 px-2">
+                                          <input id="companyName" name="companyName" class="border-0" type="text" placeholder="" value="ABG Egypt">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 py-2 selectEdit2">
+                                        <label for="phoneNumber" class="py-2 fw-bold d-flex">رقم الهاتف
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="inputs py-1 px-2">
+                                            <select name="" id="" class="border-top-0 border-bottom-0 border-end-0">
+                                             <option value="+20">20+</option>
+                                             <option value="+20">212+</option>
+                                             <option value="+20">213+</option>
+                                             <option value="+20">966+</option>
+                                             <option value="+20">971+</option>
+                                            </select>
+                                             <input id="phone" name="userPhone" class="border-0" type="tel" placeholder="اكتب رقم الهاتف">
+                                         </div>
+                                    </div> 
+                                    <div class="col-lg-12 py-2">
+                                        <label for="companyEmail" class="py-2 fw-bold d-flex">الايميل الخاص بالشركة
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="inputs py-2 px-2">
+                                            <input id="companyEmail" name="companyEmail" class="border-0" type="email" placeholder="" value="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 py-2">
+                                        <label class="py-2 fw-bold d-flex">العنوان
+                                            <div class="requiredAsterisk">
+                                                <i class="fa-solid fa-asterisk"></i>
+                                            </div>
+                                        </label>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="selectdiv pb-3 pb-md-0">
+                                                    <select name="" id="" class="inputs selectOption w-100 py-2 px-2 border-0">
+                                                        <option>الدولة</option>
+                                                        <option value="مصر">مصر</option>
+                                                        <option value="الجزائر">الجزائر</option>
+                                                        <option value="المغرب">المغرب</option>
+                                                        <option value="السعودية">السعودية</option>
+                                                        <option value="سوريا">سوريا</option>
+                                                    </select> 
+                                                </div> 
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="selectdiv pb-3 pb-md-0">
+                                                    <select name="" id="" class="inputs selectOption w-100 py-2 px-2 border-0">
+                                                        <option>المحافظة</option>
+                                                        <option value="مصر">مصر</option>
+                                                        <option value="الجزائر">الجزائر</option>
+                                                        <option value="المغرب">المغرب</option>
+                                                        <option value="السعودية">السعودية</option>
+                                                        <option value="سوريا">سوريا</option>
+                                                    </select> 
+                                                </div> 
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="selectdiv pb-3 pb-md-0">
+                                                    <select name="" id="" class="inputs selectOption w-100 py-2 px-2 border-0">
+                                                        <option>المدينة</option>
+                                                        <option value="مصر">مصر</option>
+                                                        <option value="الجزائر">الجزائر</option>
+                                                        <option value="المغرب">المغرب</option>
+                                                        <option value="السعودية">السعودية</option>
+                                                        <option value="سوريا">سوريا</option>
+                                                    </select> 
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 mt-4">
+                                        <button class="saveInfo btn">حفظ</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl" class="corporateProfile">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder="عن أي شركة تبحث..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link active navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container bg-white px-0 pt-5">
+            <div class="corporateImage corporateImageCorporate pt-3 position-relative">
+                <img id="userImage1" src="images/257270694_4514352672017818_7950858116370794917_n.png" class="w-100" alt="">
+                <div class="corporateImage5 position-absolute top-0 bottom-0 end-0 start-0 text-white">
+                    <div class="d-flex justify-content-center align-items-center position-absolute top-0 bottom-0 end-0 start-0">
+                        <label for="files1">
+                            <div class="">
+                                <div class="corporateImageLayer text-center">
+                                   <p><i class="fa-solid fa-cloud-arrow-up"></i> تغيير صورة الغلاف</p>
+                                   <span>يساعد تحميل صورة الغلاف في تمييز علامتك التجارية</span>
+                                   <br>
+                                   <span>الأبعاد المثلى 1140 بكسل × 188 بكسل</span>
+                                </div>
+                            </div>
+                        </label>
+                        <input onchange="changeImage1(this)" id="files1" class="d-none" type="file" accept="image/png, image/jpeg , image/jpg">
+                        <p id="path1" class="d-none"></p>
+                        <p id="obPath1" class="d-none"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="corporateProfile1">
+                <div class="corporateProfileTitle">
+                    <div class="row">
+                        <div class="col-2 pe-5">
+                            <div class="completeImage completeImageView">
+                                <div class="position-relative editPhoto2 rounded-circle">
+                                    <div class="position-relative rounded-circle">
+                                        <img id="userImageCorporate" src="images/257270694_4514356318684120_2195962635714332997_n@2x.png" class="bigUserImage rounded-circle" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img class="corporateProfileImage rounded-circle" src="images/257270694_4514356318684120_2195962635714332997_n@2x.png" alt=""> -->
+                        </div>
+                        <div class="col-4 py-3 pe-4">
+                                <h5 class="fw-bold">ABG EGYPT</h5>
+                                <span>Advertising Services. New Cairo</span>
+                                <br>
+                                <span>موظف 50-200</span>
+                        </div>
+                        <div class="col-3 py-4 corporateProfileTitle1">
+                                <div class="template2Contact template2Contact2 mb-2 d-flex">
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-linkedin-in text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-facebook-f text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-twitter text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-solid fa-phone text-white"></i>
+                                    </div>
+                                </div>
+                               <div class="d-flex">
+                                <i class="fa-solid fa-link ms-2 mt-1" ></i>
+                                <a href="http://www.abgegypt.com" target="_blank">www.abgegypt.com</a>
+                               </div>
+                        </div>
+                        <div class="col-3 py-4">
+                            <div class="corporateProfileTitleView m-auto d-flex justify-content-center align-items-center">
+                               <a href="completeCorporateData.html"> <i class="fa-solid fa-pencil"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div class="corporateNavbar px-5"> 
+                <nav class="navbar navbar-expand-lg bg-body-tertiary corporateNavbar1 pb-0">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav pe-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="corporateProfile.html">عن الشركة</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-black" href="corporateProfileViewJob.html">الوظائف</a>
+                          </li>
+                        </ul>
+                        <div class="rank me-auto" dir="ltr">
+                            <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                        </div>
+                      </div>
+                    </div>
+                </nav>
+                <div class="py-4 tapnone">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="fw-bold ms-5">العنوان </span>
+                                </td>
+                                <td>
+                                    <span class="corporateParagraph">طنطا,الغربية,مصر</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="fw-bold ms-5">المجال </span>
+                                </td>
+                                <td>
+                                    <span class="corporateParagraph">خدمات الدعاية والبرمجيات</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="fw-bold ms-5">حجم الشركة </span>
+                                </td>
+                                <td>
+                                    <span class="corporateParagraph">50-200 موظف</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="fw-bold ms-5">تاريخ الانشاء</span>
+                                </td>
+                                <td>
+                                    <span class="corporateParagraph">12\2\2020</span>
+                                </td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                    <p class="corporateParagraph mt-3">تأسست ABG في عام 2015 ، وهي عبارة عن دار برمجيات وإنتاج إعلامي ووكالة استشارية للتسويق الرقمي بين المناطق ،نحن وكالة مشهود لها وقوة في تطوير البرمجيات مع أسمعة طيبة لكل من استراتيجيات التسويق الفعالة والحلول واستخدام الرقمنة وتطوير البرمجيات لدينا المحفظة التي تبحث عنها عن المشاريع المكتملة والجارية معها التركيز بشكل خاص على تحقيق الهدف الواقعي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl" class="position-relative">
+    <nav class="navbar navbar-expand-lg bg-white py-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder=" ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="plans pt-5" >
+        <div class="container-fluid pt-4 mt-5">
+            <div class="row px-lg-5">
+               <h4 class="plansHead mb-3 text-center">اختر خطة التوظيف الخاصة بك</h4>
+               <div class="plansOptions my-3">
+                <a href="1monthplan.html" class="text-black fw-bold"><i class="fa-regular fa-circle"></i></a>
+                <span class="me-2">خطة شهرية</span>
+                <a href="3monthplans.html" class="text-black me-5 fw-bold"><i class="fa-regular fa-circle"></i></a>
+                <span class="me-2">خطة 3 شهور</span>
+                <a href="plans.html" class="text-black me-5 fw-bold checkedOption"><i class="fa-regular fa-circle-dot"></i></a>
+                <span class="me-2">خطة سنوية</span>
+               </div>
+               <div class="col-md-3">
+                <div class="plan1 bg-white pb-4 text-center">
+                    <div class="planHeader py-4 text-white">
+                        <h5>Basic</h5>
+                        <span class="fw-bold">3,000</span><sub>EGP/Year</sub>
+                    </div>
+                    <div class="px-4 py-2">
+                        <div class="planDescription text-end my-3">
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span class="">مشاهدات غير محدودة</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>فتح ملف 360</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>وظيفه 35</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>دعوه 250</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>مستخدمين 5</span>
+                        </div>
+                        <button onclick="showPayment()" class="text-white px-5 border-0 py-2">استخدم</button>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-3">
+                <div class="plan1 bg-white pb-4 text-center ">
+                    <div class="planHeader py-4 text-white">
+                        <h5>Basic</h5>
+                        <span class="fw-bold">3,000</span><sub>EGP/Year</sub>
+                    </div>
+                    <div class="px-4 py-2">
+                        <div class="planDescription text-end my-3">
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span class="">مشاهدات غير محدودة</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>فتح ملف 360</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>وظيفه 35</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>دعوه 250</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>مستخدمين 5</span>
+                        </div>
+                        <button onclick="showPayment()" class="text-white px-5 border-0 py-2">استخدم</button>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-3">
+                <div class="plan1 bg-white pb-4 text-center">
+                    <div class="planHeader py-4 text-white">
+                        <h5>Basic</h5>
+                        <span class="fw-bold">3,000</span><sub>EGP/Year</sub>
+                    </div>
+                    <div class="px-4 py-2">
+                        <div class="planDescription text-end my-3">
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span class="">مشاهدات غير محدودة</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>فتح ملف 360</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>وظيفه 35</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>دعوه 250</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>مستخدمين 5</span>
+                        </div>
+                        <button onclick="showPayment()" class="text-white px-5 border-0 py-2">استخدم</button>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-3">
+                <div class="plan1 bg-white pb-4 text-center">
+                    <div class="planHeader py-4 text-white">
+                        <h5>Basic</h5>
+                        <span class="fw-bold">3,000</span><sub>EGP/Year</sub>
+                    </div>
+                    <div class="px-4 py-2">
+                        <div class="planDescription text-end my-3">
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span class="">مشاهدات غير محدودة</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>فتح ملف 360</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>وظيفه 35</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>دعوه 250</span>
+                            <br>
+                            <i class="fa-regular fa-circle-check mb-3"></i>
+                            <span>مستخدمين 5</span>
+                        </div>
+                        <button onclick="showPayment()" class="text-white px-5 border-0 py-2">استخدم</button>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <div class="d-none" id="paymentNone">
+        <div class="payment position-absolute top-0 end-0 start-0 bottom-0  d-flex justify-content-center align-items-center">
+            <div class="paymentWays px-0 px-lg-5 py-4">
+                <form action="" class="paaaay">
+                    <div class="d-flex justify-content-center">
+                        <div class="row w-50 bg-white pt-5 pb-3 px-3">
+                            <h5 class="fw-bold pt-2"> طريقة الدفع</h5>
+                            <p class="fw-bold mt-4 mb-0 creditType">نوع البطاقة</p>
+                            <div class="paymentTry text-center">
+                                <img class="ms-2" src="images/mastercard.png" alt="">
+                                <img class="ms-2" src="images/visa.png" alt="">
+                                <img class="ms-2" src="images/finance.png" alt="">
+                            </div>
+                            <div class="col-lg-12 py-2">
+                                <label for="qualify2" class="py-2 fw-bold d-flex"> إسم صاحب البطاقة
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs py-2 px-2">
+                                    <input id="jobTitle" name="qualify2" class="border-0 birthdayuser" type="text" placeholder="أدخل اسم صاحب البطاقة" value="">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <label for="qualify2" class="py-2 fw-bold d-flex"> رقم البطاقة
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                    <div class="inputs paymentTry2 py-2 px-2 d-flex">
+                                        <img class="ms-2" src="images/mastercard.png" alt="">
+                                        <input id="jobTitle" name="qualify2" class="border-0 birthdayuser" type="text" placeholder="XXXX - XXXX - XXXX - XXXX" value="">
+                                    </div>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="qualify2" class="py-2 fw-bold d-flex">رقم CCV
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs py-2 px-2">
+                                    <input id="jobTitle" name="qualify2" class="border-0 birthdayuser" type="text" placeholder="0000" value="">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="qualify2" class="py-2 fw-bold d-flex">تاريخ الانتهاء 
+                                    <div class="requiredAsterisk">
+                                        <i class="fa-solid fa-asterisk"></i>
+                                    </div>
+                                </label>
+                                <div class="inputs py-2 px-2">
+                                    <input id="jobTitle" name="qualify2" class="border-0 birthdayuser" type="text" placeholder="M\D" value="">
+                                </div>
+                            </div>
+        
+                            <div class="col-6 my-3">
+                                <button id="paymentNo" onclick="showPayment1(id)" class="saveInfo btn form-control">تأكيد عملية الدفع</button>
+                            </div>
+                        </div>
+                        <div class="payDetails px-4 py-3">
+                            <div class="text-start">
+                                <i id="paymentNon" onclick="closePayment(id)" class="fa-solid fa-xmark teaaaaaaaaaaaaaaaaamIcon"></i>
+                            </div>
+                            <h5 class="fw-bold"> معلومات الدفع</h5>
+                            <div class="d-flex align-items-center mt-3 pb-4">
+                                <div class="payImage">
+                                    <img src="images/12470255_Wavy_Tech-03_Single-12.png" alt="">
+                                </div>
+                                <div class="me-3 ms-4">
+                                    <p class="mb-2">خطة Professional شهرية</p>
+                                    <span>750 EGP</span>
+                                </div>
+                            </div>
+                            <div class="payInfo pt-3">
+                                <div class="payInfo1 d-flex justify-content-between">
+                                    <p>السعر الفرعي</p>
+                                    <p>750 EGP</p>
+                                </div>
+                                <div class="payInfo1 d-flex justify-content-between">
+                                    <p>السعر الكلى</p>
+                                    <p>750 EGP</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="d-none" id="paymentNone1">
+        <div class="payment position-absolute top-0 end-0 start-0 bottom-0  d-flex justify-content-center align-items-center">
+            <div class="paymentWaysss px-0 px-lg-5 py-4">
+                    <div class="row w-50 bg-white text-center py-5 px-5 m-auto">
+                        <img src="images/pay.png" alt="">
+                        <p class="fw-bold pt-2"> تمت عملية الدفع بنجاح !</p>
+                        <span class="plansDetails">انت الآن علي خطة Professional  الشهرية 
+                            <a href="" onclick="showpaymentManage()">عرض تفاصيل الخطة</a>
+                        </span>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-none" id="paymentManage">
+        <div class="payment position-absolute top-0 end-0 start-0 bottom-0  d-flex justify-content-center align-items-center">
+            <div class="paymentWays w-50 px-0 px-lg-5 py-4">
+                <form action="" class="paaaay">
+                        <div class="payDetails bg-white px-5  py-3">
+                            <div class="text-start">
+                                <i id="paymentManag" onclick="closePayment(id)" class="fa-solid fa-xmark teaaaaaaaaaaaaaaaaamIcon"></i>
+                            </div>
+                            <h5 class="fw-bold"> إدارة الخطة</h5>
+                            <h6 class="fw-bold">خطتك</h6>
+                            <div class="d-flex align-items-center mt-3 pb-4">
+                                <div class="payImage">
+                                    <img src="images/12470255_Wavy_Tech-03_Single-12.png" alt="">
+                                </div>
+                                <div class="me-3 ms-4">
+                                    <p class="mb-2">خطة Professional شهرية</p>
+                                    <span>750 EGP</span>
+                                </div>
+                            </div>
+                            <div class="planDescription planDescriptionNone pt-3 text-end my-3">
+                                <i class="fa-regular fa-circle-check mb-3"></i>
+                                <span class="">مشاهدات غير محدودة</span>
+                                <br>
+                                <i class="fa-regular fa-circle-check mb-3"></i>
+                                <span>فتح ملف 360</span>
+                                <br>
+                                <i class="fa-regular fa-circle-check mb-3"></i>
+                                <span>وظيفه 35</span>
+                                <br>
+                                <i class="fa-regular fa-circle-check mb-3"></i>
+                                <span>دعوه 250</span>
+                                <br>
+                                <i class="fa-regular fa-circle-check mb-3"></i>
+                                <span>مستخدمين 5</span>
+                            </div>
+                            <div class="payButton text-start">
+                                <button class="border-0 py-2 px-5 ">قم بترقية خطتك</button>
+                                <button class="border-0 py-2 px-5 me-2 grayButton ">الغاء الخطة</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

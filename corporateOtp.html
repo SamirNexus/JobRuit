@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <title>JobRuit</title>
+    </head>
+    <body dir="rtl" class="bg-white">
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 px-0 vh-100">
+                <div class="accountCarousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-touch="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="carouselImage">
+                                <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                    <h4 class="pb-4">سجل الآن</h4>
+                                    <p>مرحباً بك مره ثانية!  
+                                        <br> نتمني ان تجد موظفينك معنا او تكون وجدتهم بالفعل
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                                <div class="carouselImage">
+                                    <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                        <h4 class="pb-4">سجل الآن</h4>
+                                        <p>مرحباً بك مره ثانية!  
+                                            <br> نتمني ان تجد موظفينك معنا او تكون وجدتهم بالفعل   
+                                        </p>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="carousel-item">
+                                <div class="carouselImage">
+                                    <div class="carouselContent px-2 px-lg-0 text-center d-flex align-items-center flex-column justify-content-center text-white">
+                                        <h4 class="pb-4">سجل الآن</h4>
+                                        <p>مرحباً بك مره ثانية!  
+                                            <br>نتمني ان تجد موظفينك معنا او تكون وجدتهم بالفعل
+                                        </p>
+                                    </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6 px-4 vh-100">
+                <div class="createAccount">
+                    <div class="container pt-3">
+                        <h1 class="text-center pb-2 fw-bold">التحقق من الرمز</h1>
+                        <div class="text-center forgetImageOtp">
+                            <img src="images/Two factor authentication-pana.png" alt="">
+                        </div>
+                        <p class="pt-4 m-0 pb-3 fw-bold">ادخل الرمز الذي تم ارساله الي الايميل الخاص بك</p>
+                        <form action="corporateChangePassword.html" class="mb-0"> 
+                          <div class="row otp text-center pt-2 ">
+                            <div class="row forgetInputOtp d-flex justify-content-center forgetInputOtp">
+                                <div class="col-2 pb-3 ">
+                                    <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                                </div>
+                                <div class="col-2 pb-3">
+                                    <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                                </div>
+                                <div class="col-2 pb-3">
+                                    <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                                </div>
+                                <div class="col-2 pb-3">
+                                    <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                                </div>
+                            </div>
+                            <span class="count fw-bold">00:54</span>
+                            <a href="" class="resend py-2 fw-bold">إعادة ارسال الرمز</a>
+                          </div>
+                          <button class="btn submit my-3 w-100">التالي</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>          
+       <script src="js/jquery-3.6.1.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/index.js"></script>
+    </body>
+</html>

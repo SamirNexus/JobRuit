@@ -1,0 +1,1777 @@
+:root{
+    --color-white:#FFFFFF;
+    --color-gray1:#F5F5F5;
+    --color-gray2:#E4E4E4;
+    --color-gray3:#959595;
+    --color-gray4:#707070;
+    --color-gray5:#00000029;
+    --color-black:#000000;
+    --color-blue1:#0173B71A;
+    --color-blue2:#149FBD;
+    --color-blue3:#243C97;
+    --background-color:#F5F5F5;
+    --cairo-font:'Cairo', sans-serif;
+    --montserrat-font:'Montserrat', sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+.dropdown-toggle2 .dropdown-toggle::after , .dropdown-toggle3 .dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle2 .dropdown-item{
+    transition: all 0.6s;
+}
+.dropdown-toggle2 .dropdown-item:hover{
+    color: #243C97;
+}
+.notificationImage{
+    width: 50px;
+    height: 50px;
+}
+
+.seemoreItem:hover{
+    background-color: #F5F5F5;
+}
+.seeMore:hover{
+    background-color: transparent;
+}
+.seeMore{
+    color: #149FBD;
+    cursor: pointer;
+    border-top: 1px solid #F5F5F5;
+    padding: 15px 0 0 0 ;
+}
+.notificationMenu{
+    left: 18%;
+    top: 80%;
+    z-index: 999;
+}
+.notificationMenu li{
+    list-style-type: none;
+}
+.notificationMenu li a{
+    text-decoration: none;
+    color: black;
+}
+#moreNotification{
+    display: none;
+}
+.seemoreItem p{
+    font-size: 12px;
+    color: var(--color-gray4);
+}
+.seemoreItem span{
+    font-size: 14px;
+}
+#notificationMenu h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.searchButton:focus{
+    background-color: var(--color-blue3);
+    color: white;
+}
+.navbarImage{
+    width: 70px;
+    height: 70px;
+}
+.detailsImage{
+    width: 100px;
+    height: 100px;
+}
+/* ---------------------------New Addition------------------------- */
+.detailsImage img{
+    width: 100px;
+    height: 100px; 
+}
+/* ----------------------End New Addition -----------------------*/
+.detailsImage2{
+    border: 2px solid var(--color-gray2);
+}
+/*------------------------------ New Addition-------------------------- */
+.detailsImage2  img{
+    width: 100px;
+    height: 100px;
+}
+/*------------------------------End New Addition-------------------------- */
+.userImage{
+    width: 90px;
+    height: 90px;
+}
+.userImage img{
+    width: 90px;
+    height: 90px;
+}
+/* -------------------------------New Addition------------------------------ */
+.navbarImage img{
+    width: 55px;
+    height: 55px;
+}
+/* #userImage{
+    width: 110px;
+    height: 110px;
+} */
+.userImage .userImageBorder{
+    width: 90px;
+    left: 1%;
+}
+.languagesDropdown li a{
+    transition: all 0.6s;
+}
+.languagesDropdown li a:hover{
+    color: #243C97;
+}
+.notificationsList{
+    max-height: 300px;
+    max-width: 300px;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.selectdivHome select{
+    color:var(--color-gray4) ;
+    font-size: 14px;
+}
+.selectdivHome:after{
+    color: var(--color-gray4);
+    top: 8px;
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 10px;
+}
+   
+.scrollBar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+   
+.scrollBar::-webkit-scrollbar-thumb {
+    background-color: #243C97;
+    border-radius: 10px;
+}
+
+.ahmedAhmed::-webkit-scrollbar {
+    width: 10px;
+}
+   
+.ahmedAhmed::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+   
+.ahmedAhmed::-webkit-scrollbar-thumb {
+    background-color: #243C97;
+    border-radius: 10px;
+}
+.ahmedAhmed:focus{
+   outline: 0;
+}
+.morePadding{
+    padding: 30px;
+}
+.searchInput:focus{
+    box-shadow: none;
+    border-color: var(--color-blue3);
+}
+.templateNavbar{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.templateNavbarButton .showButton{
+background-color: var(--color-blue3);
+}
+.template2Education i{
+    font-size: 22px;
+}
+.templateNavbarButton .moreButton{
+    background-color:#E4E4E4 ;
+    color: var(--color-blue3);
+}
+.templateNavbarButton .moreButton i{
+    font-size: 12px;
+}
+.resumeTemplate1{
+    background-color: var(--background-color);
+}
+.templateNavbar p{
+    color: var(--color-blue3);
+    cursor: pointer;
+}
+
+.resumeColor .color1{
+    background-color: var(--color-blue2);
+    width: 50px;
+    height: 50px;
+}
+.resumeColor .color2{
+    background-color: var(--color-blue3);
+    width: 50px;
+    height: 50px;
+}
+.resumeColor .color3{
+    background-color: var(--color-black);
+    width: 50px;
+    height: 50px;
+}
+.resumeColor .color4{
+    background-color: #973424;
+    width: 50px;
+    height: 50px;
+}
+.resumeImage{
+    background-color: var(--color-gray2);
+    border-radius: 150px 0 0 150px;
+    position: absolute;
+    left: 130px;
+    right: -12px;
+    top: 40px;
+}
+.resume1{
+    font-family: 'Poppins', sans-serif;
+    color: #222B45;
+}
+.resumeImage img{
+    width: 180px;
+    height: 180px;
+}
+.resumeImage span{
+    color: var(--color-blue2);
+    font-size: 14px;
+}
+.resumeImage p{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+.resumeImage .socialIcon div i{
+    font-size: 12px;
+    color: var(--color-gray2);
+} 
+.resumeImage .socialIcon div{
+    width: 23px;
+    height: 23px;
+    background-color: var(--color-gray3);
+}
+.resumeContact p{
+    font-size: 11px;
+}
+.about-percent{
+    background: #f7f7f7;
+    box-shadow: 0px 3px 10px var(--color-gray3) inset;
+    height: 18px;
+}
+.about-percent span{
+    color: var(--color-blue2);
+}
+.about-percent1{
+    background-color: var(--color-white);
+    height: 18px;
+    width: 90%;
+    padding: 0px 5px;
+}
+.about-percent2{
+    width: 80%;
+}
+.about-percent3{
+    width: 70%;
+}
+.about-percent1 span{
+    font-size: 14px;
+}
+.resumeLeft{
+    background-color: var(--color-blue2);
+}
+.education1{
+    border-left: 10px solid var(--color-blue2);
+}
+.about-percentage p{
+    font-size: 12px;
+}
+.about-percentage span{
+    font-size: 10px;
+}
+.language1 p{
+    font-size: 12px;
+}
+.language1 .starGray{
+  color: var(--color-gray3);
+}
+.educationDetails span , .educationDetails p{
+    font-size: 12px;
+}
+.editName{
+    background-color: #00000080;
+    z-index: 999;
+}
+.editName1{
+    background-color: var(--color-white);
+    width: 700px;
+}
+.editName1 a{
+    text-decoration: none;
+    color: var(--color-blue3);
+}
+.editName1 input{
+    background-color: #F9F9F9;
+    border: none;
+}
+.editName1 input:focus{
+    border: none;
+    box-shadow: none;
+}
+.editName1 button{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+    width: 200px;
+}
+.editName1 button:hover{
+  background-color: var(--color-blue3);
+  border-color: var(--color-blue3);
+  color: white;
+}
+.checkedColor{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-white);
+    top: 30px;
+    left: 0px;
+}
+.checkedColor i{
+    color: var(--color-blue2);
+}
+.moreOptions {
+    top: 140px;
+    left: 80px;
+    z-index: 99;
+}
+.moreOptions a{
+    text-decoration: none;
+    color: var(--color-black);
+    display: block;
+    font-size: 14px;
+}
+.editName1 input[type="text"]{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+.completeCorporateData input[type="text"]{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+.selectOption{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+.completeCorporateData .selectdiv:after{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+textarea:focus{
+    outline: 0;
+}
+ textarea{
+    resize: none;
+    color: var(--color-gray4);
+}
+.companyLiks{
+    background-color: #E4E4E4;
+   width: 40px;
+   height: 40px;
+}
+.save-button{
+    cursor: pointer;
+}
+.resumeLeft2{
+    background-color: var(--color-blue3);
+}
+.resumeImage2 span{
+    color: var(--color-blue3);
+}
+.education2{
+    border-color:var(--color-blue3);
+}
+.checkedColor2 i{
+    color: var(--color-blue3);
+}
+.resumeLeft3{
+    background-color: var(--color-black);
+}
+.resumeImage3 span{
+    color: var(--color-black);
+}
+.education3{
+    border-color:var(--color-black); 
+}
+.resumeLeft4{
+    background-color: #973424;
+}
+.resumeImage4 span{
+    color:#973424 ;
+}
+.education4{
+    border-color:#973424; 
+}
+.checkedColor4 i{
+    color: #973424;
+}
+.checkedColor3 i{
+    color: var(--color-black);
+}
+.waves{
+    padding: 130px 0 0 0 ;
+}
+.homeAfterLog .person .completePercentage {
+    border-radius: 0;
+    padding: 2px 0;
+    margin: 5px 0;
+}
+.homeAfterLog .person .completePercentage a{
+    font-size: 10px;
+}
+.company1{
+    background-color: var(--color-white);
+    border-radius: 10px;
+}
+.company1 .companyImage img{
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+}
+.rank .fa-solid{
+    color: #FBB513;
+}
+.rank span , .rank i{
+    font-size: 12px;
+}
+.companyDetails p{
+    color: #222B45;
+}
+.companyHeaders .fa-solid{
+    color: red;
+}
+.companyDetails{
+    color: #222B45;
+}
+.completePercentage .completePercentage1{
+    width: 90%;
+    background: transparent linear-gradient(0deg, #149FBD 0%, #243C97 100%) 0% 0% no-repeat padding-box;
+}
+
+.companyHeaders  i{
+    color: var(--color-gray4);
+    cursor: pointer;
+}
+
+.specialParag p{
+    font-size: 10px;
+}
+.completePercentage .completePercentage2{
+    width: 5%;
+    height: 19px;
+    background: transparent linear-gradient(0deg, #149FBD 0%, #243C97 100%) 0% 0% no-repeat padding-box;
+}
+.emptyFolder>i{
+    font-size: 8rem;
+    color: var(--color-gray3);
+}
+.emptyFolder p{
+    color: #000000;
+    font-size: 18px;
+}
+.emptyFolder img{
+    width: 400px;
+    height: 250px;
+}
+.emptyFolder a{
+    text-decoration: none;
+    color: #243C97;
+    font-size: 18px;
+}
+.testSummary a p{
+    font-size: 14px;
+    color: var(--color-blue2);
+}
+.testSummary a{
+    text-decoration: none;
+}
+
+.testSummary img{
+    width: 100px;
+    height: 100px;
+}
+.test1{
+    box-shadow: 0px 0px 30px #149FBD1A;
+}
+.testOptions a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.test1Link{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.test1Link:hover{
+    color: var(--color-black);
+}
+
+.square1 {
+    width: 70px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--color-blue2);
+}
+.square2{
+    width: 70px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--color-blue2);
+    transform: rotate(90deg);
+}
+.square i{
+    color: white;
+    position: absolute;
+    z-index: 222;
+    top: 6px;
+    right: 21px;
+    font-size: 36px
+}
+.template2{
+    background-color: var(--color-blue2);
+}
+.resumeBackgroundInfo img{
+    width: 150px;
+    height: 150px;
+}
+
+.resumeBackground{
+  background-color:var(--color-blue2);
+  height: 300px;
+}
+.resumeBackground2{
+    background-color:var(--color-blue3);
+}
+.resumeBackground3{
+    background-color:var(--color-black);
+}
+.resumeBackground4{
+    background-color:#973424;
+}
+.resumeBackgroundInfo{
+    position: absolute;
+    z-index: 2;
+}
+.templateBody{
+    background-color: var(--color-gray1);
+}
+.resumeBackgroundInfo2{
+    background-image: url("../images/Path\ 1.png");
+    background-size: cover;
+    top: 190px;
+   left: -5px;
+   right: 0;
+}
+.test1 img{
+    width: 65px;
+    height: 65px;
+}
+.templateHover{
+    background: transparent linear-gradient(0deg, #149FBD 60%, white 100%) 0% 0% no-repeat padding-box;
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.templateHover span{
+    font-size: 14px;
+}
+.templateHover:hover {
+   opacity: 0.6;
+}
+.template2Image img{
+    width: 170px;
+    height: 170px;
+    border: 3px solid var(--color-white);
+}
+.template2Image{
+    top:35%;
+    left: 6%;
+}
+.template2Contact div{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-white);
+}
+.template2Contact div i{
+    color: var(--color-blue2);
+    font-size: 12px;
+}
+.template2Contact1 div i{
+    color: var(--color-blue3);
+}
+.template2Contact2 div i{
+    color: var(--color-black);
+}
+.template2Contact3 div i{
+    color: #973424;
+}
+.contactInfoTemplate2{
+    margin: 50px 0 0 220px;
+}
+.contactInfoTemplate2 h5{
+    font-size: 14px;
+}
+.paddingMore i , .contactInfoTemplate2 span{
+    font-size: 16px;
+}
+.paddingMore{
+    padding: 0 0 0 80px;
+}
+.template2Work p{
+    color: var(--color-gray3);
+    font-size: 14px;
+}
+.borderImageTemplate2{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #E4E4E4;
+    border-radius: 10px;
+}
+.template2Education .p1 , .template2Work .p1{
+    font-size: 14px;
+    color: var(--color-blue2);
+}
+.template2Education1 .p1 , .template2Work1 .p1{
+    color: var(--color-blue3);
+    font-size: 14px;
+}
+.template2Education2 .p1 , .template2Work2 .p1{
+    color: var(--color-black);
+    font-size: 14px;
+}
+.template2Education3 .p1 , .template2Work3 .p1{
+    color: #973424;
+    font-size: 14px;
+}
+.template2Education .p2 , .template2Work .p2{
+    font-size: 12px;
+    color: var(--color-gray4);
+}
+
+
+.borderImageTemplate2 img{
+    border-radius: 10px;
+}
+.template2Skills li{
+    float: left;
+}
+.testHover h6{
+  transition:padding 0.3s;
+}
+.testHover p{
+    color: var(--color-black);
+}
+.testHover:hover {
+    background: transparent linear-gradient(0deg, #149FBD 60%, white 100%) 0% 0% no-repeat padding-box;
+}
+.testHover:hover  p{
+    color: var(--color-white);
+}
+.testHover:hover h6{
+    /* padding:5px 0 ; */
+    color: var(--color-white);
+}
+.testPosition h6{
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testHover:hover h6{
+    padding: 5px 0;
+}
+.searchNavbar .navbar{
+    box-shadow: none;
+}
+.searchNavbar .navbar-nav li{
+   margin: 5px 0 0px 0;
+}
+.searchNavbar .nav-link{
+    color: var(--color-black);
+    font-size: 14px;
+}
+.searchNavbar .dropdown-toggle::after{
+    border-top: 0.2em solid;
+    border-right: 0.2em solid transparent;
+    border-left: 0.2em solid transparent;
+}
+.jobSpanItems span{
+    background-color: var(--color-gray1);
+}
+.jobType span{
+    color: var(--color-gray4);
+    font-size: 12px;
+}
+.jobType i{
+    color: var(--color-blue2);
+    font-size: 12px;
+}
+.searchNavbar .dropdown-menu{
+    --bs-dropdown-link-active-bg: white;
+    --bs-dropdown-link-active-color: black;
+    --bs-dropdown-link-hover-bg: transparent;
+}
+.searchNavbar .dropdown-menu{
+    --bs-dropdown-font-size: 0.8rem;
+}
+
+.searchNavbar .fa-square-check{
+    color: var(--color-blue2);
+}
+.searchNavbar .dropdown-item:hover{
+    background-color: var(--color-gray1);
+}
+.searchNavbar .navbar-expand-lg .navbar-nav .dropdown-menu{
+    right:5px ;
+}
+.testSolution11{
+    background-color: var(--color-gray1);
+}
+.testSolution1 .testLink a{
+    text-decoration: none;
+    color: var(--color-gray4);
+}
+.testBody .testHead{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+}
+.testBody{
+    background-color: var(--color-white);
+}
+.testBody .testInfo p{
+    border-bottom: 1px solid var(--color-gray1);
+    font-size: 20px;
+}
+.testBody .testInfo label{
+    font-size: 16px;
+}
+.testBody .nextBack .next ,.testBody .nextBack .back {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-blue2);
+}
+.testBody .nextBack  a {
+    text-decoration: none;
+}
+.testInfo img{
+    width: 200px;
+    height:200px;
+}
+.profileForm a{
+    text-decoration: none;
+}
+.jobInfo3 img{
+    width: 80px;
+    height: 80px;
+}
+.createAccount .forgetImageOtp img{
+    width: 180px;
+    height: 180px;
+}
+.forgetImageOtp{
+    padding-top: 2px;
+}
+
+.forgetInputOtp input{
+    height: 70px;
+}
+.shareIcon .applySpan{
+    font-size: 10px;
+    color: var(--color-gray4);
+}
+.jobApply .disabledButton{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.shareIcon .work1{
+    background-color: #BD14141A;
+    color: #BD1414;
+}
+.jobCardLink {
+    text-decoration: none;
+    color: black;
+}
+.jobCardLink:hover{
+    color: black;
+}
+/* .jobCardApplied{
+    height: 858px;
+    overflow-y: scroll;
+} */
+
+/* .jobCardApplied::-webkit-scrollbar {
+    width: 10px;
+}
+   
+.jobCardApplied::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+   
+.jobCardApplied::-webkit-scrollbar-thumb {
+    background-color: #243C97;
+    border-radius: 10px;
+} */
+   
+/* .jobCardApplied::-webkit-scrollbar-thumb {
+    background-color: #243C97;
+    border-radius: 10px;
+} */
+
+.corporateProfile{
+    background-color: var(--color-gray1);
+}
+.corporateProfileImage{
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--color-gray2);
+    transform: translateY(-50%);
+}
+.corporateProfileTitle{
+    color: #000000;
+}
+.template2Contact2 div{
+   background-color: var(--color-gray3);
+}
+.corporateProfileTitle span{
+    color: var(--color-gray4);
+    font-size: 12px;
+}
+.corporateProfileTitle1 i{
+    color: var(--color-gray4);
+}
+.corporateProfileTitle1 a{
+    color: var(--color-blue2);
+}
+.corporateProfileTitle2 .fa-solid{
+    color: #FF0000;
+}
+.corporateProfileTitle2 .fa-regular{
+    color: var(--color-gray4);
+}
+.corporateProfileTitle2 span{
+    font-size: 16px;
+}
+.editName1 input:focus{
+   background-color: #F9F9F9;
+}
+.testProfile{
+    box-shadow: none;
+}
+.testProfile span{
+    font-size: 18px;
+}
+.inputsResume {
+    width: 300px;
+}
+.submit:focus{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.shareIcon .dropdown-toggle::after{
+    display: none;
+}
+.iicon i{
+    color: var(--color-gray3);
+    font-size: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+/* -----------------------New Addition--------------------------- */
+.deleteIcon i:hover{
+    color: red;
+}
+
+.corporateNavbar .navbar{
+    box-shadow: none;
+    border-bottom: 2px solid var(--color-gray1);
+}
+.corporateNavbar2 .navbar{
+    border-bottom: 1px solid var(--color-gray2);
+}
+
+.corporateHomeImage img{
+    width: 250px;
+    height: 250px;
+}
+.corporateHomeImage p{
+    font-size: 16px;
+    color: var(--color-black);
+}
+.corporateHomeLink {
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-blue3);
+}
+.corporateHomeImage p{
+    line-height: 1.8;
+}
+
+.corporateHomeLink:hover{
+    color: var(--color-white);
+    background-color: var(--color-blue3);
+    border-color: var(--color-blue3);
+}
+.moveLink{
+    text-decoration: none;
+    color: #222B45;
+}
+.moveLink:hover{
+    color: #222B45;
+}
+.heartColor i{
+    color: #707070;
+}
+.editeResumeData{
+    z-index: 100000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.editeResumeContact{
+    background-color: var(--color-white);
+    top: 0;
+    right: 0;
+}
+.inputFocus:focus{
+    box-shadow: none;
+}
+
+.hoverButton i{
+    font-size: 22px;
+    opacity: 0;
+    cursor: pointer;
+}
+.resumeBackgroundInfo:hover .hoverButton i{
+    opacity: 1;
+}
+.editeResumeContact .btn1{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+    border-color: var(--color-blue3);
+}
+.editeResumeContact .btn1:hover{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+    border-color: var(--color-blue3);
+}
+.editeResumeContact i{
+    cursor: pointer;
+}
+.editData  i{
+    opacity: 0;
+    font-size: 22px;
+    cursor: pointer;
+    color: var(--color-blue2);
+}
+.editeResumeData i{
+    transition: all 0.4s;
+}
+.editeResumeData i:hover{
+    color: red;
+}
+.template2About:hover .editData i{
+  opacity: 1;
+}
+.template2Skills:hover .editData i{
+  opacity: 1;
+}
+.educationSection1:hover i{
+ opacity: 1;
+}
+.homeAfterLogCorporate .jobCard{
+    border: 2px solid var(--color-gray1);
+    border-radius: 10px;
+}
+.availablePlane{
+    background-color:#149FBD1A;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+}
+.availablePlane span{
+    color: var(--color-blue2);
+    font-size: 14px;
+}
+.availplane h5{
+   font-size: 16px;
+}
+.availplane1 a{
+    font-size: 14px;
+}
+.corporatePercentage span{
+    font-size: 10px;
+    color:var(--color-gray4) ;
+}
+.corporatePercentage .completePercentage1{
+    width: 31%;
+    background: transparent linear-gradient(0deg, #149FBD 0%, #243C97 100%) 0% 0% no-repeat padding-box;
+}
+
+.corporatePercentage .corporatePercentage10{
+    width: 20%;
+    background: transparent linear-gradient(0deg, #149FBD 0%, #243C97 100%) 0% 0% no-repeat padding-box;
+}
+.corporateCompleteData h5{
+    font-size: 16px;
+}
+.appliedButton a{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+    font-size: 12px;
+}
+
+.appliedButton a:hover{
+    background-color: var(--color-blue2);
+    color: var(--color-white); 
+}
+.appliedButton a:focus{
+    background-color: var(--color-blue2);
+    color: var(--color-white);  
+}
+.appliedspan{
+     background-color: var(--color-gray1);
+     font-size: 12px;
+     color: var(--color-black);
+     border-radius: 5px;
+}
+.corporateSee{
+    font-size: 14px;
+    color: var(--color-gray4);
+}
+.addJob{
+    background-color: var(--color-blue3);
+    border-radius: 5px;
+    color: var(--color-white);
+}
+.addJob a{
+    color: var(--color-white);
+    font-size: 14px;
+}
+.optionIcon i{
+    color: var(--color-gray3);
+}
+
+.navbar-left .dropdown-content {
+    display: none;
+  }
+  
+.navbar-left .show {
+    display: block;
+  }
+.navbar-left .navbarBorder{
+    border-bottom: 1px solid var(--color-gray2);
+  }
+.oooption{
+    cursor: pointer;
+}
+.navbar-left h5 i{
+    color: var(--color-blue2);
+    font-size: 14px;
+}
+.optione1{
+    color: var(--color-gray4);
+    font-size: 14px;
+}
+.header1 .fa-square-check{
+    color: var(--color-blue2);
+}
+.optione11 i{
+    cursor: pointer;
+}
+.personImage img{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+}
+.availbalejoob span{
+    color: var(--color-blue2);
+    cursor: pointer;
+}
+.availbalejoob a{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.specialsspan{
+    font-size: 12px;
+    color: var(--color-gray4);
+}
+.answerQues{
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.answerQues:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+.privacy a{
+    color: var(--color-gray3);
+    text-decoration: none;
+    font-size: 12px;
+}
+.copyRight span{
+    font-size: 10px;
+    color: var(--color-gray3);
+}
+.copyRight img{
+    width: 50px;
+    height: 50px;
+}
+.selectdiv select{
+    color: var(--color-gray3);
+    font-size: 16px;
+}
+.corporateParagraph {
+  font-size: 14px;
+  color: var(--color-gray4);
+}
+.emptyFolderCorporate img{
+    width: 250px;
+    height: 250px;
+}
+.emptyFolderCorporate p{
+    font-size: 14px;
+}
+.emptyFolderCorporate a {
+   background-color: var(--color-blue3);
+   color: var(--color-white);
+   border-radius: 10px;
+}
+.planHeader{
+    background: transparent linear-gradient(180deg, #149FBD 0%, #243C97 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+}
+.plan1 button{
+    background-color: var(--color-blue3);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.plan1{
+    border-radius: 10px;
+}
+.planHeader span{
+    font-size: 24px;
+}
+.homeAfterLog .availplane3{
+    color: var(--color-blue2);
+}
+.payment{
+    background-color: #000000BF;
+    z-index: 6655338;
+}
+
+.paymentTry2 img {
+    width: 30px;
+    height: 30px;
+}
+.paymentTry img {
+    width: 70px;
+    height: 70px;
+}
+.paaaay label{
+    font-size: 12px;
+}
+.paaaay button{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.paaaay button:hover{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.paaaay button:focus{
+    background-color: var(--color-blue3);
+    color: var(--color-white);
+}
+.paymentWaysss img{
+    width: 400px;
+    height: 200px;
+}
+.paymentWaysss p{
+    font-size: 25px;
+    color: var(--color-blue3);
+}
+.homeAfterLog .jobseekerdesc{
+    font-size: 10px;
+}
+.homeAfterLog .jobseekerdesc1{
+    background-color: #F3F3F4;
+    text-decoration: none;
+    color: var(--color-black);
+}
+.homeAfterLog .jobseekerdesc1 a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.homeAfterLog .person .jobseekerComplete a{
+    font-size: 14px;
+}
+.jobseekerSocial .social1{
+    background-color: var(--color-blue2);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.contactHeader img{
+    width: 80px;
+    height: 30px;
+}
+.contactHeader{
+    background-color: var(--color-blue3);
+}
+.contactHeader h5{
+    font-size: 26px;
+}
+.contactHeader i{
+    font-size: 26px;
+}
+.contactInfo img{
+    width: 250px;
+    height: 250px;
+}
+.contactInfo , .contactTerms{
+    transform: translateY(-60px);
+}
+.contactWays .contact1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--color-blue2);
+    font-size: 12px;
+}
+.contactWays p{
+    font-size: 13px;
+}
+.contactDetails h5{
+    font-size: 20px;
+    color: var(--color-blue3);
+}
+.contactDetails span{
+    font-size: 12px;
+    color: var(--color-gray3);
+}
+.contactForm button{
+    background-color: var(--color-blue3);
+}
+.contactForm button:hover{
+    background-color: var(--color-blue3);
+}
+.contactForm button:focus{
+    background-color: var(--color-blue3);
+}
+.contact .copyRight img{
+    width: 50px;
+    height: 50px;
+}
+.privacyContact{
+    color: var(--color-gray3);
+    font-size: 12px;
+}
+.contactForm label{
+    font-size: 17px;
+}
+.contactTerms span{
+    font-size: 14px;
+    color: var(--color-gray4);
+}
+.roudedRow{
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px #00000029;
+}
+.corporateProfileTitleView{
+    width: 40px;
+    height: 40px;
+    background-color:#149FBD1A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.corporateProfileTitleView a{
+    color: var(--color-blue2);
+}
+.viewAddJob img{
+    width: 120px;
+    height: 120px;
+}
+
+.viewAddJob , .companyView{
+    border: 1px solid var(--color-gray2);
+    border-radius: 10px;
+}
+.privacyView a{
+    font-size: 10px;
+}
+.homeSend{
+    background-color: var(--color-blue3);
+}
+.homeSend:hover{
+    background-color: var(--color-blue3);
+}
+.homeSend:focus{
+    background-color: var(--color-blue3);
+}
+.corporatePercentage .completePercentage1New{
+    width: 90%;
+}
+.editPhoto{
+    left: 8px;
+    bottom: -3px;
+}
+.editPhotoComplete{
+    left: 5px;
+    bottom: -10px;
+}
+.editPhoto1{
+    width: 27px;
+    height: 27px;
+    background-color: var(--color-gray4);
+    border-radius: 50%;
+}
+.editPhoto1View{
+    width: 34px;
+    height: 34px;
+    background-color: var(--color-black);
+    opacity: 0;
+    transition: all 0.4s;
+}
+.editPhoto1ViewComplete{
+    opacity: 0.75;
+    width: 30px;
+    height: 30px;
+}
+.editPhoto1ViewComplete i{
+    font-size: 12px;
+}
+.editPhoto1 i{
+    font-size: 14px;
+}
+.editPhoto1View i{
+    font-size: 16px;
+}
+.layerPhoto{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top:100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.4s;
+}
+.layerPhotoView{
+    top:50%;
+    background-color:  var(--color-black);
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.layerPhotoView p{
+    font-size: 14px;
+}
+.completeImageView{
+    transform: translateY(-50%);
+}
+.completeImageView:hover .layerPhotoView ,.completeImageView:hover .editPhoto1View{
+    opacity: 0.75;
+} 
+.completeImageViewComplete:hover .layerPhotoView{
+    opacity: 0.75;
+}
+.completeImageViewComplete img{
+    width: 120px;
+    height: 120px;
+}
+/*-----------------------Addition------------------------*/
+.completeImageView img{
+    width: 140px;
+    height: 140px;
+}
+.editPhoto2:hover .layerPhoto{
+    top:50%;
+}
+input{
+    color: var(--color-gray4);
+}
+.selectEditView{
+    padding: 0 0 0 24px;
+}
+.corporateImage5{
+    background-color: #000000BF;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.corporateImage span{
+    font-size: 14px;
+    opacity: 0.75;
+}
+.corporateImage:hover .corporateImage5{
+  opacity: 1;
+}
+.changeCorporatePhoto1{
+    background-color:#000000BF ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.changeCorporatePhoto{
+    left: 0px;
+    top: 25px;
+}
+.plusMore2 a{
+    color: #149FBD;
+    text-decoration: none;
+}
+.tapnoneTeam{
+    border-radius: 10px;
+}
+.teamMember1{
+    background-color: var(--color-white);
+    box-shadow: 0px 6px 6px #00000029;
+}
+.teamMember1 img{
+   width: 60px;
+   height: 60px;
+}
+.teamMember1 p{
+    font-size: 10px;
+}
+.teamMember1 a{
+    color: var(--color-gray3);
+}
+.teamMember1 .dropdown-menu a{
+    color: var(--color-black);
+    font-size: 14px;
+}
+.teamList select{
+    border: 0;
+   border-radius: 5px;
+   background-color: var(--color-gray1);
+}
+.teamDetails img{
+    width: 50px;
+    height: 50px;
+}
+.teamDetails span{
+    font-size: 12px;
+}
+.today span{
+    color: var(--color-gray3);
+}
+.dropdownVacancy1 a{
+    color: var(--color-gray3);
+}
+.jobVacancy h5{
+    font-size: 20px;
+}
+.jobVacancy span{
+    font-size: 12px;
+}
+.appliedspanView{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+}
+.inputs .resetPassss{
+    width: 90%;
+}
+.teaaaaaaaaaaaaaaaaamIcon{
+   font-size: 24px;
+   cursor: pointer;
+   transition: all 0.4s;
+   color: var(--color-gray3);
+}
+.teaaaaaaaaaaaaaaaaamIcon:hover{
+    color: red;
+}
+.teaaaaaaaaaaaaaaaaamIconBack{
+    color: var(--color-blue3);
+}
+.teaaaaaaaaaaaaaaaaamIconBack:hover{
+    color: var(--color-blue3);
+}
+.teaaaaaaaaaaaaaaaaamIconparagraph{
+    cursor: pointer;
+}
+.paymentWaysss .teaaaaaaaaaaaaaaaaamIconparagraph{
+    font-size: 18px;
+}
+.resumeLayer{
+    background-color: #000000E6;
+    z-index: 555555555;
+}
+.resumeLayer .template2Image img{
+    width: 130px;
+    height: 130px;
+}
+.companyHeaders a , .corporateCompleteData a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.linkkk a{
+    color: var(--color-black);
+    text-decoration: none;
+}
+.corporateRate1{
+    width: 220px;
+    height: 80px;
+    border: 2px solid #E4E4E4;
+    border-radius: 50px 50px 50px 0px;
+}
+
+/* --------------------------New Addition--------------------- */
+.corporateRate1 {
+    color: var(--color-gray2);
+}
+
+.corporateRate1 .starParag{
+    color: var(--color-black);
+}
+/* --------------------------End New Addition--------------------- */
+.yellow{
+    color: #FED217;
+}
+.selectOptionCorporate::placeholder{
+    color: var(--color-black);
+}
+.selectdiv .selectOptionCorporate{
+    color: var(--color-black);
+}
+/* -----------------------new Addition------------------- */
+.informMessage img{
+    width: 50px;
+    height: 50px;
+}
+.informMessage span{
+    font-size: 18px;
+}
+.ahmedAhmedahmed::placeholder{
+    font-size: 12px;
+}
+.infoormLabel{
+    font-size: 14px;
+}
+.corporateLink {
+    color: var(--color-blue2);
+}
+.okkkkkkkk img{
+    width: 200px;
+    height:200px ;
+}
+.socialIconVacancydet{
+    top: 40%;
+    left: 22%;
+}
+/* -----------------------new Addition------------------- */
+.corporateImageCorporate img{
+    height: 200px;
+}
+.optionIcon i{
+    font-size: 15px;
+    color: var(--color-blue2);
+}
+.socialIconCorporate{
+    top:45% ;
+    left:35% ;
+    background-color: var(--color-gray1);
+}
+.selectdivApplicant select{
+    font-size: 14px;
+}
+.navbarButtonLeft{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+    font-size: 14px;
+}
+.navbarButtonLeft:hover{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+}
+.filterCheck:checked{
+    accent-color: var(--color-blue2);
+}
+.specialEmail{
+    width: 80%;
+}
+.testProfile .specialTd{
+    font-size: 14px;
+    color: var(--color-gray4);
+}
+.trySpan{
+    font-size: 10px;
+    color: var(--color-gray4);
+}
+.corporatePercentage .completeCorPercentage1{
+    width: 10%;
+}
+.corporatePercentage .corporateCorPercentage10{
+    width: 10%;
+}
+.plansOptions span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.plansOptions .checkedOption i{
+    color: var(--color-blue2);
+}
+.availbalejoob .openFile{
+    background-color: var(--color-white);
+    color: var(--color-blue2);
+    font-size: 16px;
+    text-decoration: none;
+}
+.homeAfterLog .jobseekerProfiledesc1{
+    background-color: var(--color-blue2);
+    border-radius: 10px;
+    color: var(--color-white);
+}
+.homeAfterLog .jobseekerProfiledesc1 a{
+    color: var(--color-white);
+    font-size: 16px;
+}
+.test1Resume{
+    background-color: var(--color-gray1);
+}
+.test1Resume input[type="text"]{
+    color: var(--color-black);
+}
+.circleDownload{
+    background-color: var(--color-blue2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circleDownload i{
+    color: var(--color-white);
+    font-size: 16px;
+}
+.payImage img{
+    width: 70px;
+    height: 70px;
+}
+.payDetails{
+    background-color: var(--color-gray1);
+}
+.payInfo , .planDescriptionNone{
+    border-top: 1px solid var(--color-gray2);
+}
+.creditType{
+    font-size: 12px;
+}
+.payButton button{
+    border-radius: 10px;
+}
+.paaaay .grayButton{
+    background-color: var(--color-gray1);
+    color: var(--color-black);
+}
+.paaaay .grayButton:hover{
+    background-color: var(--color-gray1);
+    color: var(--color-black);
+}
+.plansDetails a{
+    color: var(--color-blue3);
+}
+.chosenPlan{
+    border-top:70px solid var(--color-white) ;
+    border-bottom:70px solid transparent ;
+    border-left:70px solid var(--color-white) ;
+    border-right: 70px solid transparent;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+}
+.chosenPlanIcon{
+    top: -28px;
+    position: absolute;
+    left: -22px;
+}
+.chosenPlanIcon i{
+    color: var(--color-blue2);
+    font-size: 24px;
+}
+.applicantInputs input{
+    width: 100%;
+}
+.applicantInputs textarea{
+    background-color: #F9F9F9;
+}
+.temp3WorkDetails span{
+    color: var(--color-gray3);
+    font-size: 14px;
+}
+.ahmedAhmedText{
+    font-size: 14px;
+}
+.completeData .saveInfoEdit{
+    background-color: var(--color-gray1);
+    color: var(--color-black);
+}
+.completeData .saveInfoEdit:hover{
+    border-color: var(--color-gray1);
+}
+.quesIcon .fa-square-check{
+     color: var(--color-blue2);
+}
+.editTextUser{
+    background-color: var(--color-gray2);
+    border-radius: 5px 5px 0 0 ;
+}
+.editTextUser i{
+    color: var(--color-black);
+}
+.listDecoration li{
+    list-style-type: none;
+}
+.dot{
+    list-style-type: disc;
+}
+.checkedBox{
+    border-bottom: 1px solid var(--color-gray1);
+    padding: 0 0 10px 0 ;
+}
+.mbsc-ios.mbsc-select, .mbsc-ios.mbsc-textarea-inner.mbsc-textfield-inner-box, .mbsc-ios.mbsc-textarea-inner.mbsc-textfield-inner-outline{
+    background-color: #F9F9F9;
+    border: 0;
+    border-radius: 5px;
+}
+.mbsc-textfield-tags-placeholder{
+    font-family: var(--montserrat-font);
+}
+.mbsc-scroller-wheel-item > div{
+    opacity:0;
+}
+.mbsc-ios.mbsc-popup-round .mbsc-popup{
+    width: 100%;
+}
+.mbsc-ios.mbsc-scroller-pointer .mbsc-scroller-wheel-item.mbsc-selected{
+    color: var(--color-blue3);
+}
+.aboutYou{
+    width: 70%;
+}
+  .contactUSDone img{
+    width: 230px;
+    height: 230px;
+  }
+  .contactUSDone p{
+    color: var(--color-blue3);
+  }
+  .contactUSDone span{
+    color: var(--color-gray3);
+    font-size: 12px;
+  }
+  .changeValue textarea{
+    font-size: 14px;
+  }

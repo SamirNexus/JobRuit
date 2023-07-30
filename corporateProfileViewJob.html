@@ -1,0 +1,744 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body dir="rtl" class="corporateProfile">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="corporateHomeAfterCompleteData.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="plans.html">الخطط</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="team.html">الفريق</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 searchUl mb-lg-0">
+                <div class="d-flex w-100">
+                    <input class="form-control searchInput" type="search" placeholder=" ابحث عن سيرة ذاتية او باحت عن عمل..." aria-label="Search">
+                    <button class="btn searchButton" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <div class="d-flex align-items-center">
+                    <li class="nav-item" onclick="showMoreDropdown()">
+                        <a class="nav-link" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                        </a>
+                    </li>
+                    <ul id="notificationMenu" class="d-none position-absolute bg-white notificationMenu py-3 px-2">
+                        <h4>الاشعارات</h4>
+                        <div class="notificationsList scrollBar">
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                            <li class="seemoreItem px-2">
+                                <a href="">
+                                    <div class="d-flex">
+                                        <img class="notificationImage rounded-circle" src="images/noon.jpg" alt="">
+                                        <span class="me-2 mt-3">قامت شركة نون بتنزل وظيفة جديدة قد تكون مهتم بها</span>
+                                    </div>
+                                    <p class="text-start">اليوم 12:00 م</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <li class="nav-item w-25 dropdown dropdown-toggle2">
+                        <a class="nav-link active navbarImage dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/149071.png" class="rounded-circle w-100" alt="">
+                        </a>
+                        <ul class="dropdown-menu text-center py-3 px-3">
+                          <li>
+                            <a class="dropdown-item" href="corporateProfileCorporateView.html">الملف الشخصى</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-4 languagesDropdown">
+                        <a class="nav-link dropdown-toggle px-0 text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            العربية
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الانجليزية</a>
+                        </li>
+                          <li>
+                            <a class="dropdown-item text-center" href="#">الالمانية</a>
+                        </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container bg-white px-0 pt-5">
+            <div class="corporateImage pt-3 position-relative">
+                <img src="images/257270694_4514352672017818_7950858116370794917_n.png" class="w-100" alt="">
+                <div class="corporateImage5 position-absolute top-0 bottom-0 end-0 start-0 text-white">
+                    <div class="d-flex justify-content-center align-items-center position-absolute top-0 bottom-0 end-0 start-0">
+                        <label for="files">
+                            <div class="">
+                                <div class="corporateImageLayer text-center">
+                                   <p><i class="fa-solid fa-cloud-arrow-up"></i> تغيير صورة الغلاف</p>
+                                   <span>يساعد تحميل صورة الغلاف في تمييز علامتك التجارية</span>
+                                   <br>
+                                   <span>الأبعاد المثلى 1140 بكسل × 188 بكسل</span>
+                                </div>
+                            </div>
+                        </label>
+                        <input id="files" class="d-none" type="file" accept="image/png, image/jpeg , image/jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="corporateProfile1">
+                <div class="corporateProfileTitle">
+                    <div class="row">
+                        <div class="col-2 pe-5">
+                            <div class="completeImage completeImageView">
+                                <!-- <label for="files" class="position-relative editPhoto2 rounded-circle"> -->
+                                    <div class="position-relative rounded-circle overflow-hidden">
+                                        <img src="images/257270694_4514356318684120_2195962635714332997_n@2x.png" class="bigUserImage rounded-circle" alt="">
+                                        <!-- <div class="layerPhoto layerPhotoView position-absolute d-flex justify-content-center align-items-center text-white">
+                                            <p>تغيير الصورة</p>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="editPhoto position-absolute">
+                                        <div class="bg-white rounded-circle p-1">
+                                            <div class="editPhoto1 editPhoto1View d-flex align-items-center justify-content-center text-white">
+                                                <i class="fa-solid fa-camera-retro"></i>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                <!-- </label> -->
+                                <!-- <input id="files" class="d-none" type="file" accept="image/png, image/jpeg , image/jpg"> -->
+                            </div>
+                            <!-- <img class="corporateProfileImage rounded-circle" src="images/257270694_4514356318684120_2195962635714332997_n@2x.png" alt=""> -->
+                        </div>
+                        <div class="col-4 py-3 pe-4">
+                                <h5 class="fw-bold">ABG EGYPT</h5>
+                                <span>Advertising Services. New Cairo</span>
+                                <br>
+                                <span>موظف 50-200</span>
+                        </div>
+                        <div class="col-3 py-4 corporateProfileTitle1">
+                                <div class="template2Contact template2Contact2 mb-2 d-flex">
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-linkedin-in text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-facebook-f text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-brands fa-twitter text-white"></i>
+                                    </div>
+                                    <div class="me-2 d-flex align-items-center justify-content-center rounded-circle">
+                                        <i class="fa-solid fa-phone text-white"></i>
+                                    </div>
+                                </div>
+                               <div class="d-flex">
+                                <i class="fa-solid fa-link ms-2 mt-1" ></i>
+                                <a href="http://www.abgegypt.com" target="_blank">www.abgegypt.com</a>
+                               </div>
+                        </div>
+                        <div class="col-3 py-4">
+                            <div class="corporateProfileTitleView m-auto d-flex justify-content-center align-items-center">
+                               <a href="completeCorporateData.html"> <i class="fa-solid fa-pencil"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div class="corporateNavbar px-5"> 
+                <nav class="navbar navbar-expand-lg bg-body-tertiary corporateNavbar1 pb-0">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav pe-0">
+                          <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="corporateProfileCorporateView.html">عن الشركة</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="">الوظائف</a>
+                          </li>
+                        </ul>
+                        <div class="rank me-auto" dir="ltr">
+                            <i class="fa-solid fa-star me-1"></i><span>7.5</span>
+                        </div>
+                      </div>
+                    </div>
+                </nav>
+                <div class="py-4 tapnone corporateJobsProfile homeAfterLog homeAfterLogCorporate bg-white">
+                    <div class="row">
+                        <div class="col-lg-2 px-0 mb-4">
+                            <div class="viewAddJob text-center px-3 py-4">
+                                <img src="images/g8.png" class="mb-4" alt="">
+                                <div class="addJob">
+                                    <a class="btn border-0 px-3" href="addJob.html"> <i class="fa-solid fa-plus"></i> أضف وظيفة</a>
+                                </div>
+                            </div>
+                            <div class="privacy privacyView text-center">
+                                <a href="terms$conditions.html" class="ms-1">الشروط والاحكام</a>
+                                <a href="privacyPolicy.html">سياسة الخصوصية</a>
+                                <br>
+                                <a href="contactUs.html">تواصل معنا</a>
+                            </div>
+                            <div class="copyRight text-center">
+                                <span>Copyright @ Jopruit 2023</span>
+                                <img src="images/logoooooo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="company">
+                                <div class="row">
+                                    <div class="corporateNavbar px-5"> 
+                                        <div class="py-4 tapnone">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                       <a href="vacancyDetails.html"><h5 class="fw-bold">Senior UI/UX Designer</h5></a>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="company1 companyView px-2 py-2">
+                                                            <div class="p-2">
+                                                                <div class="d-flex justify-content-between optionIcon">
+                                                                    <div class="corporateCompleteData d-flex">
+                                                                        <h5 class="fw-bold">Senior UI/UX Designer</h5>
+                                                                        <p class="me-2">22\2\2022</p>
+                                                                    </div>
+                                                                    <div class="dropdown">
+                                                                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu text-end">
+                                                                          <li><a class="dropdown-item" href="#">مشاركه</a></li>
+                                                                          <li><a class="dropdown-item" href="#">اغلاق</a></li>
+                                                                          <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                          <li><a class="dropdown-item" href="#">حذف</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                </div>
+                                                                <div class="jobType">
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">العمل عن بعد</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">دوام كامل</span>
+                                                                    <i class="fa-solid fa-circle-check"></i> <span class="ms-4">طنطا الغربية</span>
+                                                                </div>
+                                                                <div class="d-flex justify-content-between pt-3 appliedButton align-items-center">
+                                                                    <div class="d-flex">
+                                                                        <a class="border-0 btn" href="applicants.html"> متقدم للوظيفة 50</a>
+                                                                        <div class="me-2 appliedspan d-flex justify-content-center align-items-center px-3 py-2">
+                                                                            <span>لم يتم رؤية 9</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="corporateSee">
+                                                                        <i class="fa-regular fa-eye"></i>
+                                                                        <span>507</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="navbar-left companyView bg-white px-4 py-3">
+                                                        <h5 class="pb-2 mb-3"><i class="fa-solid fa-sliders ms-2"></i> التصنيف</h5>
+                                                        <div class="header1">
+                                                            <div id="optione" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                                <h6>الفئة</h6>
+                                                                <i id="optioneicon1" class="fa-solid fa-caret-up"></i>
+                                                            </div>
+                                                            <div id="optione1" class="optione11">
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>دوام كامل</span>
+                                                                    <i id="optionIcons1" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>دوام جزئي</span>
+                                                                    <i id="optionIcons2" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>من المقر</span>
+                                                                    <i id="optionIcons3" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>عن بعد</span>
+                                                                    <i id="optionIcons4" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="header1 mt-3">
+                                                            <div id="optione1" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                                <h6>تاريخ النشر</h6>
+                                                                <i id="optione1icon1" class="fa-solid fa-caret-up"></i>
+                                                            </div>
+                                                            <div id="optione11" class="optione11">
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>كل الاوقات</span>
+                                                                    <i id="optionIcons5" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر 24 ساعة</span>
+                                                                    <i id="optionIcons6" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر اسبوع</span>
+                                                                    <i id="optionIcons7" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر شهر</span>
+                                                                    <i id="optionIcons8" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="header1 mt-3">
+                                                            <div id="optione2" onclick="toggleNav(id)" class="d-flex oooption justify-content-between">
+                                                                <h6>الوظيفة</h6>
+                                                                <i id="optione2icon1" class="fa-solid fa-caret-up"></i>
+                                                            </div>
+                                                            <div id="optione21" class="optione11">
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>كل الاوقات</span>
+                                                                    <i id="optionIcons9" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر 24 ساعة</span>
+                                                                    <i id="optionIcons10" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر اسبوع</span>
+                                                                    <i id="optionIcons11" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                                <div class="optione1 d-flex justify-content-between mt-2">
+                                                                    <span>اخر شهر</span>
+                                                                    <i id="optionIcons12" onclick="toggleIcone(id)" class="fa-regular fa-square"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>
