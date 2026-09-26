@@ -4,6 +4,8 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
 
+**Live demo:** https://job-ruit.vercel.app
+
 JobRuit is a multi-page front-end prototype for a recruitment platform serving job seekers and employers. It explores the complete user experience—from onboarding and profile creation to job publishing, applications, shortlisting, subscription plans, and account management.
 
 > This repository is a front-end demonstration. Authentication, payments, email delivery, and persistent server-side data require a production backend.
@@ -43,6 +45,31 @@ JobRuit/
 ├── webfonts/   # Local font assets
 └── *.html      # Job-seeker and employer flows
 ```
+
+## Architecture at a glance
+
+```mermaid
+flowchart LR
+  Landing[Public landing & discovery] --> Seeker[Job-seeker flows]
+  Landing --> Employer[Employer flows]
+  Seeker --> Profiles[Profile & résumé screens]
+  Seeker --> Jobs[Search, saved jobs & applications]
+  Employer --> Vacancies[Vacancy creation & editing]
+  Employer --> Applicants[Applicant discovery & review]
+  Shared[Bootstrap + shared CSS + JS/jQuery] --> Landing
+  Shared --> Seeker
+  Shared --> Employer
+  Deploy[Vercel] --> Landing
+```
+
+## Recruiter quick scan
+
+- 72 connected HTML screens covering both candidate and employer journeys
+- Separate job-seeker and employer experiences rather than a single landing page
+- Responsive layouts built with Bootstrap, custom CSS, and media queries
+- Client-side form validation and interactive flows using JavaScript and jQuery
+- Portfolio demo clearly separated from backend-dependent features such as auth, payments, and email
+- Live deployment on Vercel for direct review
 
 ## Run locally
 
