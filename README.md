@@ -1,88 +1,70 @@
-# 💼 JobRuit – Job Portal Web Application
+# JobRuit — Responsive Recruitment Platform Prototype
 
-**JobRuit** is a web-based job portal that connects job seekers with employers. The platform allows users to register, browse job listings, apply for jobs, and manage their profiles with a user-friendly, responsive interface.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
 
----
+JobRuit is a multi-page front-end prototype for a recruitment platform serving job seekers and employers. It explores the complete user experience—from onboarding and profile creation to job publishing, applications, shortlisting, subscription plans, and account management.
 
-## 🌟 Features
+> This repository is a front-end demonstration. Authentication, payments, email delivery, and persistent server-side data require a production backend.
 
-- **User Registration & Authentication:** Secure login and registration for job seekers and employers.  
-- **Job Listings:** Browse available jobs with detailed descriptions.  
-- **Job Applications:** Apply directly through the platform and track application status.  
-- **Profile Management:** Manage personal and company profiles.  
-- **Responsive Design:** Works seamlessly on desktops, tablets, and mobile devices.  
+## Experiences covered
 
----
+### Job seekers
 
-## 🛠️ Technologies Used
+- Registration, login, password recovery, and OTP screens
+- Personal profile and résumé creation
+- Job discovery, application, saved jobs, and application tracking
+- Subscription and account-management journeys
 
-- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript (ES6), jQuery  
-- **Data Storage:** Local storage (for client-side data)  
-- **Other Tools:** REJX for input validation  
+### Employers
 
----
+- Company registration and profile completion
+- Vacancy creation and editing
+- Applicant discovery and profile review
+- Candidate lists and employer account screens
 
-## 📁 Project Structure
+## Tech stack
 
+- Semantic HTML5
+- CSS3 and responsive media queries
+- Bootstrap
+- JavaScript ES6 and jQuery
+- Client-side form validation
+- Font Awesome
+
+## Project structure
+
+```text
 JobRuit/
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── images/
-│ └── (image files)
-├── webfonts/
-│ └── (font files)
-├── index.html
-├── 1monthplan.html
-├── 3monthplans.html
-├── aboutCompany.html
-├── addJob.html
-├── applicants.html
-├── appliedList.html
-├── changePassword.html
-├── completeCorporateData.html
-├── completeData.html
-├── contactUSDone.html
-└── README.md
+├── css/        # Global and page styles
+├── js/         # Interactions and validation
+├── images/     # Interface assets
+├── webfonts/   # Local font assets
+└── *.html      # Job-seeker and employer flows
+```
 
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository:**
+## Run locally
 
 ```bash
 git clone https://github.com/SamirNexus/JobRuit.git
-Navigate to the project folder:
-
-
 cd JobRuit
-Open the project in your browser:
+```
 
-Open index.html or any other HTML page to start using the application.
+Open `homeAfterLog.html` for the job-seeker experience or `corporateHomeAfterLog.html` for the employer experience. A local static server is recommended:
 
-💡 How to Use
-Register/Login: Create a new account or log in.
+```bash
+npx serve .
+```
 
-Browse Jobs: Explore available job listings.
+## Portfolio highlights
 
-Apply for Jobs: Submit applications and track status.
+- Designed a broad, role-based recruitment journey across dozens of connected screens
+- Created distinct job-seeker and employer experiences
+- Implemented responsive layouts and reusable visual patterns
+- Demonstrated product thinking beyond a single landing page
 
-Manage Profile: Update your personal or company profile.
+## Author
 
-
-🤝 Contributing
-Contributions are welcome! Steps to contribute:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-name)
-
-Commit your changes (git commit -m "Add new feature")
-
-Push to the branch (git push origin feature-name)
-
-Create a Pull Request
-
+**Mohamed Samir** — Front-End Developer  
+[GitHub](https://github.com/SamirNexus) · [LinkedIn](https://www.linkedin.com/in/samirnexus98/)
